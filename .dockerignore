@@ -1,0 +1,8 @@
+# 永不进镜像：密钥、可变数据（运行时挂载）、依赖与本地产物
+data
+dist
+node_modules
+ui/node_modules
+.claude
+*.log
+.DS_Store

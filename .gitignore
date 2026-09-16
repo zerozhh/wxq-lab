@@ -1,0 +1,18 @@
+# 依赖与构建产物
+node_modules/
+ui/node_modules/
+dist/
+
+# 本机数据：快照、更新日志、对局记录
+data/meta/
+
+# 密钥（DeepSeek API key 等）——绝不进仓库
+data/.secrets.json
+
+# 中间产物（可用 scripts/extract-database.mjs 重新生成）
+data/raw-database.json
+
+# 本地配置
+.claude/
+*.log
+.DS_Store

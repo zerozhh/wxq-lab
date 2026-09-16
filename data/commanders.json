@@ -1,0 +1,1707 @@
+[
+ {
+  "id": "commander-r1",
+  "name": "小妲己",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r1/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r1/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r1/skill.png",
+  "summary": "每购买4张牌，小妲己随机获得1张效果牌。",
+  "skillName": "怦然心动",
+  "skillText": "每购买4张牌，小妲己随机获得1张效果牌。",
+  "quote": "戏里戏外，都是我向往的世界。",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 91099,
+      "name": "怦然心动",
+      "description": "每购买4张牌，小妲己随机获得1张效果牌。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 661001,
+      "name": "心动节拍",
+      "description": "触发5/4/3次怦然心动，获得1张秘技牌心之引力。"
+     },
+     {
+      "id": 91010,
+      "name": "心之引力",
+      "description": "获得4次临时刷新。且这4次刷新时，商店购买消耗-1。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 661009,
+      "name": "魅力无限",
+      "description": "每回合打出的第1张效果牌会触发2次。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "怦然心动",
+    "text": "每购买4张牌，小妲己随机获得1张效果牌。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r1/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "心动节拍",
+    "text": "触发5/4/3次怦然心动，获得1张秘技牌心之引力。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "魅力无限",
+    "text": "每回合打出的第1张效果牌会触发2次。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r1/exclusive.png"
+   }
+  ],
+  "note": "逐鹿战术牌流（社区T0）",
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r2",
+  "name": "瑶妹",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r2/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r2/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r2/skill.png",
+  "summary": "游戏开始时，瑶召唤自己心爱的小鹿前来助阵，小鹿每回合等级+2，如果上回合战斗胜利，等级额外+4。",
+  "skillName": "可爱小鹿",
+  "skillText": "游戏开始时，瑶召唤自己心爱的小鹿前来助阵，小鹿每回合等级+2，如果上回合战斗胜利，等级额外+4。",
+  "quote": "我的梦想就是，看遍世界上所有有趣的东西~",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 91199,
+      "name": "可爱小鹿",
+      "description": "游戏开始时，瑶召唤自己心爱的小鹿前来助阵，小鹿每回合等级+2，如果上回合战斗胜利，等级额外+4。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 661101,
+      "name": "超绝可爱小鹿",
+      "description": "每3个回合，获得1张秘技牌神奇小鹿。"
+     },
+     {
+      "id": 91110,
+      "name": "神奇小鹿·嘲讽",
+      "description": "开战后小鹿会在敌人之间无视碰撞地移动，每3秒嘲讽1次周围1格敌人，等级+8。"
+     },
+     {
+      "id": 91111,
+      "name": "神奇小鹿·重装",
+      "description": "小鹿可以穿戴普通装备，且立即穿戴1件极寒风暴，等级+10。"
+     },
+     {
+      "id": 91112,
+      "name": "神奇小鹿·双生",
+      "description": "开战时，小鹿会在附近生成1个自身的复制体。如果本局获得过5次胜利，小鹿等级+12（当前胜利次数：0）。"
+     },
+     {
+      "id": 91113,
+      "name": "神奇小鹿·共鸣",
+      "description": "小鹿等级翻倍。"
+     },
+     {
+      "id": 91115,
+      "name": "神奇小鹿·奉献",
+      "description": "小鹿阵亡时，会将自身等级以临时等级均分给你的英雄。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 661106,
+      "name": "巨型玩偶",
+      "description": "小鹿等级+30，并获得1件小鹿的庇护。"
+     },
+     {
+      "id": 641008,
+      "name": "小鹿的庇护",
+      "description": "唯一。穿戴者所受伤害的30%将转移到小鹿身上。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "可爱小鹿",
+    "text": "游戏开始时，瑶召唤自己心爱的小鹿前来助阵，小鹿每回合等级+2，如果上回合战斗胜利，等级额外+4。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r2/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "超绝可爱小鹿",
+    "text": "每3个回合，获得1张秘技牌神奇小鹿。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "巨型玩偶",
+    "text": "小鹿等级+30，并获得1件小鹿的庇护。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r2/exclusive.png"
+   }
+  ],
+  "note": "瑶妹李信牺牲流（社区T0）",
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r12",
+  "name": "镜",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r12/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r12/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r12/skill.png",
+  "summary": "使用技能，获得1张镜像牌，每使用4次技能，该技能能量消耗+1。",
+  "skillName": "无穷镜像",
+  "skillText": "使用技能，获得1张镜像牌，每使用4次技能，该技能能量消耗+1。",
+  "quote": "破碎定义，做不平凡的自己。",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 92199,
+      "name": "无穷镜像",
+      "description": "使用技能，获得1张镜像牌，每使用4次技能，该技能能量消耗+1。"
+     },
+     {
+      "id": 92100,
+      "name": "镜像",
+      "description": "该卡牌会自动变为上一张打出的英雄牌（不能复制其他打出的镜像牌）。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 662101,
+      "name": "镜像之力",
+      "description": "使用4张镜像，获得1张秘技牌万镜。"
+     },
+     {
+      "id": 92110,
+      "name": "万镜",
+      "description": "随机复制场上4张不同的英雄牌。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 662107,
+      "name": "镜花影",
+      "description": "商店里的英雄牌在购买后会留下1个镜像复制（不计入秘技任务）。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "无穷镜像",
+    "text": "使用技能，获得1张镜像牌，每使用4次技能，该技能能量消耗+1。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r12/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "镜像之力",
+    "text": "使用4张镜像，获得1张秘技牌万镜。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "镜花影",
+    "text": "商店里的英雄牌在购买后会留下1个镜像复制（不计入秘技任务）。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r12/exclusive.png"
+   }
+  ],
+  "note": "6级天赋万镜（高阶秘技牌）",
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r6",
+  "name": "乔汐",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r6/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r6/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r6/skill.png",
+  "summary": "使用技能，随机获得1张2-5阶的转瞬英雄牌。",
+  "skillName": "温柔呼唤",
+  "skillText": "使用技能，随机获得1张2-5阶的转瞬英雄牌。",
+  "quote": "点亮的心，不会轻易熄灭。",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 92299,
+      "name": "温柔呼唤",
+      "description": "使用技能，随机获得1张2-5阶的转瞬英雄牌。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 662201,
+      "name": "海的拥抱",
+      "description": "每经过4个回合，获得1张秘技牌潮汐的交响。"
+     },
+     {
+      "id": 92210,
+      "name": "潮汐的交响",
+      "description": "场上随机5名英雄等级+8。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 662206,
+      "name": "潮起潮落",
+      "description": "开战时，随机传送1个临时等级100级的英雄进入战场（不含卡牌效果），该等级每回合+40。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "温柔呼唤",
+    "text": "使用技能，随机获得1张2-5阶的转瞬英雄牌。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r6/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "海的拥抱",
+    "text": "每经过4个回合，获得1张秘技牌潮汐的交响。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "潮起潮落",
+    "text": "开战时，随机传送1个临时等级100级的英雄进入战场（不含卡牌效果），该等级每回合+40。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r6/exclusive.png"
+   }
+  ],
+  "note": "乔汐司空震流（社区推荐）",
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r11",
+  "name": "常小娥",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r11/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r11/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r11/skill.png",
+  "summary": "使用技能，小菟随机助力1名英雄，使其等级+2。本场比赛中，小菟每助力过1次，等级提升效果+1。",
+  "skillName": "小菟助力",
+  "skillText": "使用技能，小菟随机助力1名英雄，使其等级+2。本场比赛中，小菟每助力过1次，等级提升效果+1。",
+  "quote": "常怀善意，才能感受这个世界的美好。",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 92499,
+      "name": "小菟助力",
+      "description": "使用技能，小菟随机助力1名英雄，使其等级+2。本场比赛中，小菟每助力过1次，等级提升效果+1。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 662401,
+      "name": "兔飞猛进",
+      "description": "己方英雄等级总和达到50/150/375级，获得1张秘技牌小菟送福。"
+     },
+     {
+      "id": 92410,
+      "name": "小菟送福",
+      "description": "对场上的随机4名英雄各触发1次小菟助力，使其等级+2。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 662407,
+      "name": "月之特调",
+      "description": "小菟提供等级时，每5级使其额外获得1项随机属性：15%攻速/2%物理和法术吸血/2点物理和法术防御力。且每通过小菟助力提供65级时，获得1张小菟送福。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "小菟助力",
+    "text": "使用技能，小菟随机助力1名英雄，使其等级+2。本场比赛中，小菟每助力过1次，等级提升效果+1。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r11/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "兔飞猛进",
+    "text": "己方英雄等级总和达到50/150/375级，获得1张秘技牌小菟送福。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "月之特调",
+    "text": "小菟提供等级时，每5级使其额外获得1项随机属性：15%攻速/2%物理和法术吸血/2点物理和法术防御力。且每通过小菟助力提供65级时，获得1张小菟送福。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r11/exclusive.png"
+   }
+  ],
+  "note": "海陆空流（官方推荐·新手友好）",
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r14",
+  "name": "玉环",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r14/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r14/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r14/skill.png",
+  "summary": "每打出3张非觉醒英雄牌时，玉环将根据出牌类型以不同的指法弹奏琵琶，并触发1次相应效果。",
+  "skillName": "霓裳曲",
+  "skillText": "每打出3张非觉醒英雄牌时，玉环将根据出牌类型以不同的指法弹奏琵琶，并触发1次相应效果。",
+  "quote": "心中有所想，便能在琴声中有所得。",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 92599,
+      "name": "霓裳曲",
+      "description": "每打出3张非觉醒英雄牌时，玉环将根据出牌类型以不同的指法弹奏琵琶，并触发1次相应效果。"
+     },
+     {
+      "id": 92594,
+      "name": "轮指",
+      "description": "使用3张相同非觉醒英雄牌：使用轮指，下个指法触发2次。"
+     },
+     {
+      "id": 92597,
+      "name": "扫拂",
+      "description": "使用3张同品阶非觉醒英雄牌：使用扫拂，使场上等级最低的2名英雄获得等于棋手等级的等级。"
+     },
+     {
+      "id": 92596,
+      "name": "吟揉",
+      "description": "使用3张同阵营非觉醒英雄牌：使用吟揉，获得1张随机的转瞬英雄牌。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 662501,
+      "name": "自成曲调",
+      "description": "累积弹奏6次琵琶，获得1张秘技牌惊鸿调，限2张。"
+     },
+     {
+      "id": 92510,
+      "name": "惊鸿调",
+      "description": "使用记录的前6次的指法来弹奏琵琶，并触发对应的效果（还可获得2张）。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 662502,
+      "name": "余音绕梁",
+      "description": "获得3次惊鸿调演奏次数。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "霓裳曲",
+    "text": "每打出3张非觉醒英雄牌时，玉环将根据出牌类型以不同的指法弹奏琵琶，并触发1次相应效果。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r14/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "自成曲调",
+    "text": "累积弹奏6次琵琶，获得1张秘技牌惊鸿调，限2张。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "余音绕梁",
+    "text": "获得3次惊鸿调演奏次数。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r14/exclusive.png"
+   }
+  ],
+  "note": "日落海整备流核心棋手（社区T0）",
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r5",
+  "name": "庄小鱼",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r5/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r5/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r5/skill.png",
+  "summary": "庄小鱼升级时，会随机获得1张效果牌。",
+  "skillName": "梦境游戏",
+  "skillText": "庄小鱼升级时，会随机获得1张效果牌。",
+  "quote": "在梦境之中寻求真实，在现实之中渴望奇迹。",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 93199,
+      "name": "梦境游戏",
+      "description": "庄小鱼升级时，会随机获得1张效果牌。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 663101,
+      "name": "美梦成真",
+      "description": "升到5级和6级，获得1张秘技牌如梦似幻。"
+     },
+     {
+      "id": 93110,
+      "name": "如梦似幻",
+      "description": "基于场上阵容获取一套梦幻手牌。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 663108,
+      "name": "引擎升级",
+      "description": "获得1张梦幻引擎：将商店替换为梦幻商店。若在棋手生命值≤30时战斗失败，则重复获得。"
+     },
+     {
+      "id": 663109,
+      "name": "梦幻引擎",
+      "description": "根据场上的阵容，将商店替换为梦幻商店。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "梦境游戏",
+    "text": "庄小鱼升级时，会随机获得1张效果牌。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r5/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "美梦成真",
+    "text": "升到5级和6级，获得1张秘技牌如梦似幻。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "引擎升级",
+    "text": "获得1张梦幻引擎：将商店替换为梦幻商店。若在棋手生命值≤30时战斗失败，则重复获得。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r5/exclusive.png"
+   }
+  ],
+  "note": "古币花木兰流（社区推荐）",
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r13",
+  "name": "马可",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r13/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r13/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r13/skill.png",
+  "summary": "马可每打出4张3阶及以下的英雄牌，随机获得1张宝藏牌。",
+  "skillName": "寻宝之旅",
+  "skillText": "马可每打出4张3阶及以下的英雄牌，随机获得1张宝藏牌。",
+  "quote": "我能说走就走，也能随时闪亮登场！",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 93299,
+      "name": "寻宝之旅",
+      "description": "马可每打出4张3阶及以下的英雄牌，随机获得1张宝藏牌。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 663201,
+      "name": "终极宝藏",
+      "description": "使用7张宝藏牌，获得1张秘技牌终极宝藏。"
+     },
+     {
+      "id": 93210,
+      "name": "终极宝藏正是在下",
+      "description": "随机从3个终极宝藏中选择1个。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 610013,
+      "name": "瓜分宝藏",
+      "description": "从2种英雄强化效果中选择1个。"
+     },
+     {
+      "id": 663207,
+      "name": "阳光普照",
+      "description": "战斗开始时，你的全体英雄获得1%×已打出宝藏牌数量的伤害提升。"
+     },
+     {
+      "id": 663208,
+      "name": "重点照顾",
+      "description": "战斗开始时，你的人数最多的同品阶英雄获得1.5%×已打出宝藏牌数量的伤害提升。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "寻宝之旅",
+    "text": "马可每打出4张3阶及以下的英雄牌，随机获得1张宝藏牌。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r13/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "终极宝藏",
+    "text": "使用7张宝藏牌，获得1张秘技牌终极宝藏。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "瓜分宝藏",
+    "text": "从2种英雄强化效果中选择1个。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r13/exclusive.png"
+   }
+  ],
+  "note": "养猪流（官方推荐）",
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r8",
+  "name": "白歌",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r8/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r8/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r8/skill.png",
+  "summary": "每进行4次英雄合成，白歌获得1张即兴创作。",
+  "skillName": "神来之笔",
+  "skillText": "每进行4次英雄合成，白歌获得1张即兴创作。",
+  "quote": "兴之所至，心之所安。",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 93399,
+      "name": "神来之笔",
+      "description": "每进行4次英雄合成，白歌获得1张即兴创作。"
+     },
+     {
+      "id": 93300,
+      "name": "即兴创作",
+      "description": "随机获得场上1名英雄的复制。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 663301,
+      "name": "天生我才",
+      "description": "使用6张即兴创作，获得1张秘技牌灵感爆发。"
+     },
+     {
+      "id": 93310,
+      "name": "灵感爆发",
+      "description": "释放3道剑气，斩击手牌中随机3张非觉醒英雄牌，将每张牌斩为2张转瞬版复制。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 663307,
+      "name": "惊才绝艳",
+      "description": "获得1张奇才：指定1名英雄，获得4张该英雄牌。"
+     },
+     {
+      "id": 663308,
+      "name": "奇才",
+      "description": "指定1名英雄，获得4张该英雄牌。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "神来之笔",
+    "text": "每进行4次英雄合成，白歌获得1张即兴创作。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r8/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "天生我才",
+    "text": "使用6张即兴创作，获得1张秘技牌灵感爆发。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "惊才绝艳",
+    "text": "获得1张奇才：指定1名英雄，获得4张该英雄牌。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r8/exclusive.png"
+   }
+  ],
+  "note": "全员999流（官方推荐/社区T0）",
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r15",
+  "name": "昭君",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r15/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r15/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r15/skill.png",
+  "summary": "指定1名英雄，将其冻结。战斗结束后，该英雄随机变为高1阶的英雄，继承等级。",
+  "skillName": "冰之心",
+  "skillText": "指定1名英雄，将其冻结。战斗结束后，该英雄随机变为高1阶的英雄，继承等级。",
+  "quote": "灵魂仍然炽热，但回忆已被冰封。",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 93499,
+      "name": "冰之心",
+      "description": "指定1名英雄，将其冻结。战斗结束后，该英雄随机变为高1阶的英雄，继承等级。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 663401,
+      "name": "极寒冰冻",
+      "description": "第5/8回合，获得1张秘技牌深度冻结。"
+     },
+     {
+      "id": 93410,
+      "name": "深度冻结",
+      "description": "从随机3个强化效果中选择1个。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 663405,
+      "name": "冰雪秘藏",
+      "description": "从3个增益效果中选择1个。"
+     },
+     {
+      "id": 663402,
+      "name": "寒潮之势",
+      "description": "战斗开始时，你等级最高的英雄获得1200点生命值、120点物理和法术攻击力。"
+     },
+     {
+      "id": 663403,
+      "name": "不朽坚冰",
+      "description": "战斗开始时，你的全体英雄获得500点最大生命值、60点物理和法术攻击力。"
+     },
+     {
+      "id": 663404,
+      "name": "雪暴时刻",
+      "description": "冻结的英雄，解冻后等级永久+20。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "冰之心",
+    "text": "指定1名英雄，将其冻结。战斗结束后，该英雄随机变为高1阶的英雄，继承等级。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r15/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "极寒冰冻",
+    "text": "第5/8回合，获得1张秘技牌深度冻结。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "冰雪秘藏",
+    "text": "从3个增益效果中选择1个。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r15/exclusive.png"
+   }
+  ],
+  "note": null,
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r16",
+  "name": "班叔",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r16/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r16/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r16/skill.png",
+  "summary": "比赛开始时，获得1张便携式机关。\n棋手等级达到2/3/4/5时，从热能陷阱、电磁弹簧、等离子屏障3种机关卡中随机获得1张。",
+  "skillName": "神匠",
+  "skillText": "比赛开始时，获得1张便携式机关。\n棋手等级达到2/3/4/5时，从热能陷阱、电磁弹簧、等离子屏障3种机关卡中随机获得1张。",
+  "quote": "真理至高无上，而生活还在真理之上。",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 93599,
+      "name": "神匠",
+      "description": "比赛开始时，获得1张便携式机关。\n棋手等级达到2/3/4/5时，从热能陷阱、电磁弹簧、等离子屏障3种机关卡中随机获得1张。"
+     },
+     {
+      "id": 93508,
+      "name": "便携式机关",
+      "description": "从热能陷阱、电磁弹簧、等离子屏障3种机关中选择1个。"
+     },
+     {
+      "id": 93501,
+      "name": "热能陷阱",
+      "description": "可放置1个热能陷阱。敌方踩中时，对其造成真实伤害并眩晕。"
+     },
+     {
+      "id": 93502,
+      "name": "电磁弹簧",
+      "description": "可放置1个电磁弹簧。敌方踩中时触发，将其弹至敌方战场后排，触发2次后消失。"
+     },
+     {
+      "id": 93503,
+      "name": "等离子屏障",
+      "description": "可放置1个等离子屏障。可在横向展开阻碍敌方行动。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 663501,
+      "name": "机关跃迁",
+      "description": "收集螺丝，可获得秘技牌构筑升级（至多10张）。\n触发陷阱：螺丝+3\n触发弹簧：螺丝+2\n屏障被摧毁：螺丝+5"
+     },
+     {
+      "id": 93504,
+      "name": "构筑升级",
+      "description": "指定场上1个机关升级其效果。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 663502,
+      "name": "成品方案",
+      "description": "从3种机关强化方案中选择1个。"
+     },
+     {
+      "id": 93505,
+      "name": "热能陷阱强化",
+      "description": "陷阱会延时2秒爆炸且爆炸范围增加1格，3级陷阱的冷却时间缩短至4秒。"
+     },
+     {
+      "id": 93506,
+      "name": "电磁弹簧强化",
+      "description": "弹簧被友军触发时，使友军获得50%生命值上限的磁力护盾，护盾存在期间该单位造成的伤害提升50%。"
+     },
+     {
+      "id": 93507,
+      "name": "等离子屏障强化",
+      "description": "屏障生命值+100%，3级屏障会在战斗开始时为屏障左右1格的友军提供复生效果。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "神匠",
+    "text": "比赛开始时，获得1张便携式机关。\n棋手等级达到2/3/4/5时，从热能陷阱、电磁弹簧、等离子屏障3种机关卡中随机获得1张。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r16/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "机关跃迁",
+    "text": "收集螺丝，可获得秘技牌构筑升级（至多10张）。\n触发陷阱：螺丝+3\n触发弹簧：螺丝+2\n屏障被摧毁：螺丝+5",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "成品方案",
+    "text": "从3种机关强化方案中选择1个。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r16/exclusive.png"
+   }
+  ],
+  "note": null,
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r3",
+  "name": "弈星",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r3/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r3/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r3/skill.png",
+  "summary": "本回合战斗开始时，弈星随机复制1名敌方英雄。",
+  "skillName": "棋道万象",
+  "skillText": "本回合战斗开始时，弈星随机复制1名敌方英雄。",
+  "quote": "不得贪胜，不可不胜。",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 93699,
+      "name": "棋道万象",
+      "description": "本回合战斗开始时，弈星随机复制1名敌方英雄。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 663601,
+      "name": "谋而后定",
+      "description": "第4/8/12回合，获得1张秘技牌驭势。"
+     },
+     {
+      "id": 93610,
+      "name": "驭势",
+      "description": "战斗开始时，将敌方场上所有英雄复制进你的手牌。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 663607,
+      "name": "神之一手",
+      "description": "开战时，将敌方等级最高的英雄复制，临时加入我方战场。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "棋道万象",
+    "text": "本回合战斗开始时，弈星随机复制1名敌方英雄。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r3/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "谋而后定",
+    "text": "第4/8/12回合，获得1张秘技牌驭势。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "神之一手",
+    "text": "开战时，将敌方等级最高的英雄复制，临时加入我方战场。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r3/exclusive.png"
+   }
+  ],
+  "note": null,
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r9",
+  "name": "孙小宾",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r9/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r9/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r9/skill.png",
+  "summary": "使用技能，孙小宾回溯上回合使用过的英雄牌（非觉醒）和效果牌，随机触发其中1张。",
+  "skillName": "时光倒流",
+  "skillText": "使用技能，孙小宾回溯上回合使用过的英雄牌（非觉醒）和效果牌，随机触发其中1张。",
+  "quote": "时间会证明一切的！",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 93899,
+      "name": "时光倒流",
+      "description": "使用技能，孙小宾回溯上回合使用过的英雄牌（非觉醒）和效果牌，随机触发其中1张。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 663801,
+      "name": "时间魔法",
+      "description": "首次单回合使用8张英雄或效果牌，获得1张秘技牌时之回环。"
+     },
+     {
+      "id": 93810,
+      "name": "时之回环",
+      "description": "使用后，记录你从现在开始使用的所有非觉醒英雄牌和效果牌（最多8张），并在下回合开始时，再次触发这些卡牌。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 663805,
+      "name": "时光宝藏",
+      "description": "获得1张更强力的永恒时之回环，可以记录12张英雄牌或效果牌。"
+     },
+     {
+      "id": 93811,
+      "name": "永恒时之回环",
+      "description": "使用后，记录你从现在开始使用的所有非觉醒英雄牌和效果牌（最多12张），并在下回合开始时，再次触发这些卡牌。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "时光倒流",
+    "text": "使用技能，孙小宾回溯上回合使用过的英雄牌（非觉醒）和效果牌，随机触发其中1张。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r9/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "时间魔法",
+    "text": "首次单回合使用8张英雄或效果牌，获得1张秘技牌时之回环。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "时光宝藏",
+    "text": "获得1张更强力的永恒时之回环，可以记录12张英雄牌或效果牌。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r9/exclusive.png"
+   }
+  ],
+  "note": null,
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r10",
+  "name": "明先生",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r10/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r10/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r10/skill.png",
+  "summary": "使用技能，从2种卦象中选择1个，卦象效果持续3个回合。",
+  "skillName": "先知卦象",
+  "skillText": "使用技能，从2种卦象中选择1个，卦象效果持续3个回合。",
+  "quote": "人生乏味啊，我欲令之光怪陆离。",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 93999,
+      "name": "先知卦象",
+      "description": "使用技能，从2种卦象中选择1个，卦象效果持续3个回合。"
+     },
+     {
+      "id": 93998,
+      "name": "卦象·丰",
+      "description": "每回合获得4次临时刷新，每回合能量-2，持续3个回合。"
+     },
+     {
+      "id": 93997,
+      "name": "卦象·节",
+      "description": "刷新费用+1，每回合能量+2，持续3个回合。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 663901,
+      "name": "天降鸿运",
+      "description": "第6/10回合，获得1张秘技牌命运馈赠。"
+     },
+     {
+      "id": 93910,
+      "name": "命运馈赠",
+      "description": "从2个馈赠中选择1个，每使用1次，效果增强。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 663905,
+      "name": "飞龙在天",
+      "description": "强化明先生的卦象。\n卦象·节：每回合额外获得4能量。\n卦象·丰：每回合获得8次临时刷新。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "先知卦象",
+    "text": "使用技能，从2种卦象中选择1个，卦象效果持续3个回合。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r10/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "天降鸿运",
+    "text": "第6/10回合，获得1张秘技牌命运馈赠。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "飞龙在天",
+    "text": "强化明先生的卦象。\n卦象·节：每回合额外获得4能量。\n卦象·丰：每回合获得8次临时刷新。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r10/exclusive.png"
+   }
+  ],
+  "note": "泳池派对全屏召唤流（官方推荐）",
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r7",
+  "name": "闹闹",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r7/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r7/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r7/skill.png",
+  "summary": "使用技能，从随机2个阵营中选择1个，之后技能替换为：花费1能量，获得1张该阵营的英雄牌。",
+  "skillName": "派对泡泡",
+  "skillText": "使用技能，从随机2个阵营中选择1个，之后技能替换为：花费1能量，获得1张该阵营的英雄牌。",
+  "quote": "雨滴里藏着彩虹，泡泡里住着美梦。",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 94099,
+      "name": "派对泡泡",
+      "description": "使用技能，从随机2个阵营中选择1个，之后技能替换为：花费1能量，获得1张该阵营的英雄牌。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 664001,
+      "name": "快乐集结",
+      "description": "上阵6名技能所选阵营的英雄，获得1张秘技牌朋友多多。"
+     },
+     {
+      "id": 94010,
+      "name": "朋友多多",
+      "description": "随机抽取4张技能所选阵营的英雄牌。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 664005,
+      "name": "狂欢时刻",
+      "description": "获得1张打成一片。"
+     },
+     {
+      "id": 664009,
+      "name": "打成一片",
+      "description": "天赋3选1（技能选择阵营相关的天赋）。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "派对泡泡",
+    "text": "使用技能，从随机2个阵营中选择1个，之后技能替换为：花费1能量，获得1张该阵营的英雄牌。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r7/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "快乐集结",
+    "text": "上阵6名技能所选阵营的英雄，获得1张秘技牌朋友多多。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "狂欢时刻",
+    "text": "获得1张打成一片。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r7/exclusive.png"
+   }
+  ],
+  "note": "日落海整备流（官方推荐·新手丝滑上分）",
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r17",
+  "name": "姜导",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r17/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r17/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r17/skill.png",
+  "summary": "使用技能，指定1名英雄成为主角，获得效果：每打出2张英雄或效果牌，等级+1（每回合最多+5）。",
+  "skillName": "钦定主角",
+  "skillText": "使用技能，指定1名英雄成为主角，获得效果：每打出2张英雄或效果牌，等级+1（每回合最多+5）。",
+  "quote": "想要改变的前提，是坚持。",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 94199,
+      "name": "钦定主角",
+      "description": "使用技能，指定1名英雄成为主角，获得效果：每打出2张英雄或效果牌，等级+1（每回合最多+5）。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 664101,
+      "name": "封神时刻",
+      "description": "己方英雄首次升到25级，获得1张秘技牌封神一瞬。"
+     },
+     {
+      "id": 94110,
+      "name": "封神一瞬",
+      "description": "指定1名英雄，使其每次等级永久提升时，都额外+1级。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 664108,
+      "name": "完美演出",
+      "description": "封神一瞬指定的英雄在战斗开始时获得30%物理和法术吸血，并在15秒内免疫控制效果（压制除外）。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "钦定主角",
+    "text": "使用技能，指定1名英雄成为主角，获得效果：每打出2张英雄或效果牌，等级+1（每回合最多+5）。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r17/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "封神时刻",
+    "text": "己方英雄首次升到25级，获得1张秘技牌封神一瞬。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "完美演出",
+    "text": "封神一瞬指定的英雄在战斗开始时获得30%物理和法术吸血，并在15秒内免疫控制效果（压制除外）。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r17/exclusive.png"
+   }
+  ],
+  "note": "养玄策/炸盾万血廉颇（社区T0）",
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r18",
+  "name": "嬴律",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r18/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r18/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r18/skill.png",
+  "summary": "比赛开始时，嬴律获得1张战略决策。使用后在第一次发布至高决策时，可以再获得1张。",
+  "skillName": "最高决策者",
+  "skillText": "比赛开始时，嬴律获得1张战略决策。使用后在第一次发布至高决策时，可以再获得1张。",
+  "quote": "规则决定秩序，而我，决定规则。",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 94399,
+      "name": "最高决策者",
+      "description": "比赛开始时，嬴律获得1张战略决策。使用后在第一次发布至高决策时，可以再获得1张。"
+     },
+     {
+      "id": 94300,
+      "name": "战略决策",
+      "description": "挑选1个战略决策，嬴律本场比赛获得此效果。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 664301,
+      "name": "至高之主",
+      "description": "每经过4个回合，获得1张秘技牌至高决策。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 664302,
+      "name": "特权决策",
+      "description": "选择1个特权决策颁布，对所有玩家生效，并且自己额外享受特权效果。"
+     },
+     {
+      "id": 94361,
+      "name": "绝对压制",
+      "description": "战斗开始时，你等级最高的英雄变成猪猪，持续3秒，并在本局对战中获得30%伤害减免。决策颁布者额外特权：你的该英雄额外获得20%伤害提升。"
+     },
+     {
+      "id": 94362,
+      "name": "贷款协议",
+      "description": "能量可用至-15。回合开始时若能量为负，则本回合获得的能量-2。决策颁布者额外特权：能量下限为-20且不受到惩罚。"
+     },
+     {
+      "id": 94363,
+      "name": "资源再分配",
+      "description": "有棋手被淘汰时，获得5能量以及1张基础装备牌。决策颁布者额外特权：改为获得特殊装备牌且额外恢复5棋手生命值。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "最高决策者",
+    "text": "比赛开始时，嬴律获得1张战略决策。使用后在第一次发布至高决策时，可以再获得1张。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r18/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "至高之主",
+    "text": "每经过4个回合，获得1张秘技牌至高决策。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "特权决策",
+    "text": "选择1个特权决策颁布，对所有玩家生效，并且自己额外享受特权效果。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r18/exclusive.png"
+   }
+  ],
+  "note": null,
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-r4",
+  "name": "香香",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r4/avatar.png",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r4/artwork.png",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r4/skill.png",
+  "summary": "开战时，香香会使用武器攻击敌人。\n香香初始攻击力为20，每拥有1名不低于10级的1-3阶英雄，香香的攻击力+20。",
+  "skillName": "究极弩炮",
+  "skillText": "开战时，香香会使用武器攻击敌人。\n香香初始攻击力为20，每拥有1名不低于10级的1-3阶英雄，香香的攻击力+20。",
+  "quote": "无趣的生活，是一切失败的罪魁祸首！",
+  "sections": [
+   {
+    "type": "技能",
+    "level": 1,
+    "entries": [
+     {
+      "id": 95099,
+      "name": "究极弩炮",
+      "description": "开战时，香香会使用武器攻击敌人。\n香香初始攻击力为20，每拥有1名不低于10级的1-3阶英雄，香香的攻击力+20。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "level": 1,
+    "entries": [
+     {
+      "id": 665001,
+      "name": "枪炮艺术",
+      "description": "累积造成10/15/20/30点棋手伤害，获得1张秘技牌武器改造。"
+     },
+     {
+      "id": 95010,
+      "name": "武器改造",
+      "description": "香香的攻击力+20%。\n进行1次武器改造方案选择。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "level": 6,
+    "entries": [
+     {
+      "id": 665005,
+      "name": "火力全开",
+      "description": "香香获得（己方英雄等级的总和×0.5）%的攻击力提升。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "究极弩炮",
+    "text": "开战时，香香会使用武器攻击敌人。\n香香初始攻击力为20，每拥有1名不低于10级的1-3阶英雄，香香的攻击力+20。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r4/skill.png"
+   },
+   {
+    "type": "秘技",
+    "name": "枪炮艺术",
+    "text": "累积造成10/15/20/30点棋手伤害，获得1张秘技牌武器改造。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/shared/secret.png"
+   },
+   {
+    "type": "专属",
+    "name": "火力全开",
+    "text": "香香获得（己方英雄等级的总和×0.5）%的攻击力提升。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-r4/exclusive.png"
+   }
+  ],
+  "note": "图腾开团射（官方推荐/社区T0）；其普攻瞄准右上角，站位需避开",
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-ali",
+  "name": "阿离",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-ali/avatar.jpg",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-ali/artwork.jpg",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-ali/skill.webp",
+  "summary": "围绕转移后的恢复、追加转移、击败成长与攻击力成长展开。",
+  "skillName": "枫叶舞",
+  "skillText": "围绕转移后的恢复、追加转移、击败成长与攻击力成长展开。",
+  "quote": "",
+  "sections": [
+   {
+    "type": "技能",
+    "entries": [
+     {
+      "name": "枫叶舞",
+      "description": "围绕转移后的恢复、追加转移、击败成长与攻击力成长展开。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "entries": [
+     {
+      "name": "惊鸿游龙",
+      "description": "枫叶舞指定的英雄击败3/7/11/15名敌方英雄，获得1张秘技牌翩跃舞步，并为枫叶舞解锁1项特性。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "entries": [
+     {
+      "name": "即刻起舞",
+      "description": "获得落英汲取、枫之洪流、翩跃馈赠等天赋强化。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "枫叶舞",
+    "text": "围绕转移后的恢复、追加转移、击败成长与攻击力成长展开。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-ali/skill.webp"
+   },
+   {
+    "type": "秘技",
+    "name": "惊鸿游龙",
+    "text": "枫叶舞指定的英雄击败3/7/11/15名敌方英雄，获得1张秘技牌翩跃舞步，并为枫叶舞解锁1项特性。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-ali/secret.webp"
+   },
+   {
+    "type": "专属",
+    "name": "即刻起舞",
+    "text": "获得落英汲取、枫之洪流、翩跃馈赠等天赋强化。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-ali/exclusive.webp"
+   }
+  ],
+  "note": null,
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-angel",
+  "name": "安琪拉",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-angel/avatar.jpg",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-angel/artwork.jpg",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-angel/skill.webp",
+  "summary": "获得飞行器；棋手等级达到3时，获得1张顿悟时刻。",
+  "skillName": "特制灵异追踪器",
+  "skillText": "获得飞行器；棋手等级达到3时，获得1张顿悟时刻。",
+  "quote": "",
+  "sections": [
+   {
+    "type": "技能",
+    "entries": [
+     {
+      "name": "特制灵异追踪器",
+      "description": "获得飞行器；棋手等级达到3时，获得1张顿悟时刻。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "entries": [
+     {
+      "name": "驱鬼！加大力度！",
+      "description": "累计获得5/10/20/35点神秘力量，获得1张秘技牌灵异探测大改装。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "entries": [
+     {
+      "name": "超级连接",
+      "description": "获得1张灵异探测大改装。战斗开始时，飞行器连接的英雄会随机获得自身10%-40%等级数的临时等级。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "特制灵异追踪器",
+    "text": "获得飞行器；棋手等级达到3时，获得1张顿悟时刻。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-angel/skill.webp"
+   },
+   {
+    "type": "秘技",
+    "name": "驱鬼！加大力度！",
+    "text": "累计获得5/10/20/35点神秘力量，获得1张秘技牌灵异探测大改装。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-angel/secret.webp"
+   },
+   {
+    "type": "专属",
+    "name": "超级连接",
+    "text": "获得1张灵异探测大改装。战斗开始时，飞行器连接的英雄会随机获得自身10%-40%等级数的临时等级。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-angel/exclusive.webp"
+   }
+  ],
+  "note": null,
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ },
+ {
+  "id": "commander-wufeng",
+  "name": "武凤",
+  "avatar": "https://static.datatft.com/wxq/wxq-database/commanders/commander-wufeng/avatar.jpg",
+  "artwork": "https://static.datatft.com/wxq/wxq-database/commanders/commander-wufeng/artwork.jpg",
+  "skillIcon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-wufeng/skill.webp",
+  "summary": "比赛开始时额外拥有3能量；每次拍卖后，再次获得3能量。",
+  "skillName": "门庭赫奕",
+  "skillText": "比赛开始时额外拥有3能量；每次拍卖后，再次获得3能量。",
+  "quote": "",
+  "sections": [
+   {
+    "type": "技能",
+    "entries": [
+     {
+      "name": "门庭赫奕",
+      "description": "比赛开始时额外拥有3能量；每次拍卖后，再次获得3能量。"
+     },
+     {
+      "name": "众心所归",
+      "description": "每使用45能量，获得1张秘技牌为我所用。"
+     }
+    ]
+   },
+   {
+    "type": "秘技",
+    "entries": [
+     {
+      "name": "为我所用",
+      "description": "随机获得本局其他棋手的1张秘技牌。"
+     }
+    ]
+   },
+   {
+    "type": "专属",
+    "entries": [
+     {
+      "name": "万鸟朝凤",
+      "description": "随机从3个棋手的秘技牌中选择1张。"
+     },
+     {
+      "name": "可获得其他棋手的秘技",
+      "description": "通过为我所用或万鸟朝凤，可随机获得其他棋手的秘技牌。"
+     }
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "type": "技能",
+    "name": "门庭赫奕",
+    "text": "比赛开始时额外拥有3能量；每次拍卖后，再次获得3能量。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-wufeng/skill.webp"
+   },
+   {
+    "type": "秘技",
+    "name": "为我所用",
+    "text": "随机获得本局其他棋手的1张秘技牌。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-wufeng/secret.webp"
+   },
+   {
+    "type": "专属",
+    "name": "万鸟朝凤",
+    "text": "随机从3个棋手的秘技牌中选择1张。",
+    "icon": "https://static.datatft.com/wxq/wxq-database/commanders/commander-wufeng/exclusive.webp"
+   }
+  ],
+  "note": null,
+  "source": "datawxq.com 前端内嵌官方卡牌库（scripts/extract-database.mjs 提取）",
+  "verified": true,
+  "updatedAt": "2026-09-14"
+ }
+]

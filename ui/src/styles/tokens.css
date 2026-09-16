@@ -1,0 +1,133 @@
+@import 'tailwindcss';
+
+/* ============================================================
+   v4 —— 配色取自王者万象棋官网 wxq.qq.com（2026-09-15 截图取色）
+   蓝紫 periwinkle 天空（#5a63c5 远景 → #e9e5fb 亮心）+ 深靛墨（#3c4179 家族）
+   结构与组件交互对齐 datawxq.com：浮动胶囊导航 / 白卡 / 可排序表格 / 红绿趋势
+   ============================================================ */
+@theme {
+  /* 官网天空 */
+  --color-sky-hi: #edecfb;      /* 亮心薰衣草（官网 #e9e5fb） */
+  --color-sky: #dcdcf2;
+  --color-sky-low: #c3c6e8;
+  --color-sky-deep: #8f94d6;    /* periwinkle 远景（官网 #7f80cb 减饱和） */
+
+  /* 靛墨（官网深部 #3c4179 家族） */
+  --color-ink-hi: #262b4d;
+  --color-ink: #565c85;
+  --color-ink-low: #8b90b4;
+
+  /* 品牌蓝紫（官网按钮/主视觉 #5a63c5 域） */
+  --color-royal-700: #4753b8;
+  --color-royal-600: #5661c8;
+  --color-royal-500: #6b76d6;
+  --color-royal-300: #9aa2e8;
+  --color-royal-100: #cdd2f5;
+
+  /* 数据与语义 */
+  --color-ember: #d95926;
+  --color-gold: #c9922a;        /* 金只作「第一名/5阶」语义色 */
+  --color-gold-fill: #f5c451;
+  --color-mint: #1e8a4c;
+  --color-alert: #c33d2e;
+  --color-trend-bad: #ef4444;   /* datawxq 趋势红 */
+  --color-trend-good: #21a05a;  /* datawxq 趋势绿 */
+
+  /* 深靛块（官网底部横幅 #3c4179 家族）：hero 卡格 / 分享图专用 */
+  --color-night-900: #1c2044;
+  --color-night-800: #262c55;
+  --color-night-700: #3c4179;
+
+  --font-sans: -apple-system, 'PingFang SC', 'Helvetica Neue', 'Microsoft YaHei', sans-serif;
+  --font-serif-disp: 'Songti SC', 'STSong', 'SimSun', serif;
+
+  --radius-hero: 22px;
+  --radius-panel: 16px;
+  --radius-ctrl: 10px;
+
+  /* 阴影带紫调，禁灰黑 */
+  --shadow-float: 0 24px 60px -16px rgb(47 52 110 / 0.30);
+  --shadow-pop: 0 10px 30px -8px rgb(47 52 110 / 0.16);
+}
+
+/* 旧 token 别名（存量组件类平滑过渡） */
+:root {
+  --bg0: var(--color-sky-hi);
+  --bg1: #ffffff;
+  --bg2: #f3f3fb;
+  --bg3: #e8e9f6;
+  --cream: #f6f5f1;             /* datawxq 阵容卡的暖白 */
+  --ink: var(--color-ink-hi);
+  --ink-2: var(--color-ink);
+  --ink-3: var(--color-ink-low);
+  --accent: var(--color-royal-600);
+  --accent-hi: var(--color-royal-700);
+  --accent-dim: rgb(86 97 200 / 0.09);
+  --lav: var(--color-royal-100);
+  --series-1: var(--color-royal-600);
+  --series-2: var(--color-ember);
+  --series-3: #199e70;
+  --good: var(--color-mint);
+  --warn: #b57713;
+  --bad: var(--color-alert);
+  --gold: var(--color-gold);
+  --t1: #8b90b4; --t2: #3d9663; --t3: #4a7cc0; --t4: #8560c8; --t5: #c9922a;
+  --line: rgb(38 43 77 / 0.09);
+  --line-strong: rgb(38 43 77 / 0.16);
+  --shadow: var(--shadow-pop);
+  --font-body: var(--font-sans);
+  --font-display: var(--font-sans);
+  --fs-0: 12px; --fs-1: 13px; --fs-2: 14px; --fs-3: 16px; --fs-4: 20px; --fs-5: 28px;
+  --r-sm: 10px; --r-md: 14px; --r-lg: var(--radius-panel);
+}
+
+body {
+  background:
+    radial-gradient(1000px 460px at 82% -10%, rgb(255 255 255 / 0.92), transparent 60%),
+    radial-gradient(820px 440px at -6% -4%, rgb(143 148 214 / 0.42), transparent 58%),
+    radial-gradient(900px 520px at 108% 34%, rgb(90 99 197 / 0.20), transparent 64%),
+    radial-gradient(6px 6px at 22% 10%, rgb(255 255 255 / 0.9), transparent 60%),
+    radial-gradient(5px 5px at 57% 5%, rgb(255 255 255 / 0.85), transparent 60%),
+    linear-gradient(180deg, var(--color-sky-hi) 0%, var(--color-sky) 52%, var(--color-sky-low) 100%);
+  background-attachment: fixed;
+  color: var(--color-ink-hi);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 夜空块：深靛（官网底部横幅色），仅用于 hero 卡格与分享图 */
+.hero-night {
+  background: linear-gradient(155deg, #343a6e 0%, #262c55 55%, #1c2044 100%);
+  border: 1px solid rgb(205 210 245 / 0.22);
+  box-shadow: var(--shadow-float);
+}
+
+/* 大标语：宋体双 tone（datawxq 首页「万象数据，一搜即达」结构） */
+.statement {
+  font-family: var(--font-serif-disp);
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  color: var(--color-ink-hi);
+}
+.statement em {
+  font-style: normal;
+  color: var(--color-royal-600);
+}
+
+/* 标题：靛墨→蓝紫 渐变斜体 */
+.title-display {
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: 0.01em;
+  background: linear-gradient(105deg, #262b4d 35%, #5661c8 78%, #6b76d6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.hero-night .title-display {
+  background: linear-gradient(105deg, #ffffff 30%, var(--color-royal-100) 70%, var(--color-royal-300));
+  -webkit-background-clip: text;
+  background-clip: text;
+}

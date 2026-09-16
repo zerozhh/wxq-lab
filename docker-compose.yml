@@ -1,0 +1,15 @@
+# 万象棋房 · docker compose
+# 用法：docker compose up -d --build   → http://localhost:8082
+services:
+  wxq-lab:
+    build: .
+    image: wxq-lab:latest
+    container_name: wxq-lab
+    ports:
+      - "8082:5177"
+    volumes:
+      # 快照/更新日志/密钥全部留在宿主机，重建镜像不丢数据
+      - ./data:/app/data
+    environment:
+      - TZ=Asia/Shanghai
+    restart: unless-stopped
