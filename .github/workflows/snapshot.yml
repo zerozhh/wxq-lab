@@ -1,0 +1,50 @@
+# 每日快照采集（GitHub Actions）
+# 背景：本机 IP 被 api.datatft.com 封禁（42000），改由 Actions 机房 IP 采集并提交回仓库
+# 手动触发：gh workflow run daily-snapshot [-f sample_pages=30]
+name: daily-snapshot
+on:
+  schedule:
+    - cron: '53 0 * * *' # UTC 00:53 = 北京 08:53
+  workflow_dispatch:
+    inputs:
+      sample_pages:
+        description: 'explore 高强度对局采样页数（每页12局）'
+        default: '30'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 拉取当日快照（rankings/lineups/equipment-fit/trends）
+        env:
+          TZ: Asia/Shanghai
+        run: node scripts/fetch-meta.mjs
+
+      - name: 采样对局（含高强度标记，限速礼貌抓取）
+        env:
+          TZ: Asia/Shanghai
+        run: node scripts/explore-sample.mjs "${{ inputs.sample_pages || 30 }}"
+
+      - name: 提交回仓库
+        run: |
+          git config user.name  wxq-lab-bot
+          git config user.email 18666086+wxq-lab-bot@users.noreply.github.com
+          DATE=$(TZ=Asia/Shanghai date +%F)
+          git add -f "data/meta/$DATE"
+          git commit -m "快照 $DATE（Actions 采集）" || echo "无新数据，跳过提交"
+          git push
