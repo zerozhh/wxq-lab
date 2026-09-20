@@ -25,6 +25,7 @@ for (let p = 1; p <= PAGES; p++) {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'User-Agent': 'wxq-lab/1.0 (research sample)' },
     body: JSON.stringify({ time: 7, operator: 'AND', advancedMode: false, filters: [], exclusions: [], page: p, pageSize: 12, version: 'v1' }),
+    signal: AbortSignal.timeout(20000),
   }).catch(() => null);
   if (!r?.ok) { console.error(`page ${p}: HTTP ${r?.status ?? 'network'}`); continue; }
   const body = await r.json();

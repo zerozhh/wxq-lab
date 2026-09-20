@@ -34,20 +34,35 @@ const CMD_QUERIES = { 镜: '21', 孙小宾: '38' };
 const heroes = JSON.parse(await readFile('data/heroes.json', 'utf8'));
 const idOf = Object.fromEntries(heroes.map((h) => [h.name, String(h.id)]));
 
-const out = { queriedAt: new Date().toISOString(), global: null, comps: {} };
+const out = { queriedAt: new Date().toISOString(), global: null, comps: {}, commanders: {} };
 let blocked = false;
+
+/** 查询 + 解析整体容错（超时/解析失败返回 null，绝不崩进程） */
+async function q(body) {
+  try {
+    const r = await fetch(API, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'User-Agent': 'wxq-lab/1.0 (research)' },
+      body,
+      signal: AbortSignal.timeout(45000),
+    });
+    if (!r.ok) { console.error(`  HTTP ${r.status}`); return null; }
+    return await r.json();
+  } catch (e) {
+    console.error(`  请求失败: ${e.message || e}`);
+    return null;
+  }
+}
+
+async function flush() {
+  await mkdir(OUT_DIR, { recursive: true });
+  await writeFile(path.join(OUT_DIR, 'comp-stats.json'), JSON.stringify(out, null, 1));
+}
 
 for (const [name, list] of Object.entries(COMPS)) {
   const filters = list.map((n) => ({ type: 'hero', id: idOf[n], switchVal: true, conditionVal: true })).filter((f) => f.id);
-  const body = JSON.stringify({ time: 7, operator: 'AND', advancedMode: false, filters, exclusions: [], page: 1, pageSize: 1, version: 'v1' });
-  const r = await fetch(API, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'User-Agent': 'wxq-lab/1.0 (research)' },
-    body,
-    signal: AbortSignal.timeout(20000),
-  }).catch(() => null);
-  if (!r?.ok) { console.error(`${name}: HTTP ${r?.status ?? 'network'}`); continue; }
-  const j = await r.json();
+  const j = await q(JSON.stringify({ time: 7, operator: 'AND', advancedMode: false, filters, exclusions: [], page: 1, pageSize: 1, version: 'v1' }));
+  if (!j) continue;
   if (j.code !== 1) {
     console.error(`${name}: 数据源异常 code=${j.code} ${j.message || ''}`);
     if (j.code === 42000) { blocked = true; break; }
@@ -66,46 +81,32 @@ for (const [name, list] of Object.entries(COMPS)) {
   };
   const b = d.base;
   console.error(`${name}: ${d.total}局 登顶${(b.firstRate * 100).toFixed(1)}% 前三${(b.top3Rate * 100).toFixed(1)}% 均次${b.avgPlacement.toFixed(2)}`);
+  await flush();
   await sleep(1500);
 }
 
 // 全局基线（无过滤），用于相对强度归一
 if (!blocked) {
-  const r = await fetch(API, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'User-Agent': 'wxq-lab/1.0 (research)' },
-    body: JSON.stringify({ time: 7, operator: 'AND', advancedMode: false, filters: [], exclusions: [], page: 1, pageSize: 1, version: 'v1' }),
-  });
-  const j = await r.json();
-  if (j.code === 1) out.global = { base: j.data.base, total: j.data.total };
+  const j = await q(JSON.stringify({ time: 7, operator: 'AND', advancedMode: false, filters: [], exclusions: [], page: 1, pageSize: 1, version: 'v1' }));
+  if (j?.code === 1) out.global = { base: j.data.base, total: j.data.total };
 }
 
 // 绝活棋手单查
-out.commanders = {};
+const pickTop = (rows, n = 6) => (rows || []).slice(0, n);
 for (const [name, id] of Object.entries(CMD_QUERIES)) {
   if (blocked) break;
-  const r = await fetch(API, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'User-Agent': 'wxq-lab/1.0 (research)' },
-    body: JSON.stringify({ time: 7, operator: 'AND', advancedMode: false, filters: [{ type: 'commander', id, switchVal: true, conditionVal: true }], exclusions: [], page: 1, pageSize: 1, version: 'v1' }),
-  }).catch(() => null);
-  if (!r?.ok) continue;
-  const j = await r.json();
-  if (j.code !== 1) continue;
+  const j = await q(JSON.stringify({ time: 7, operator: 'AND', advancedMode: false, filters: [{ type: 'commander', id, switchVal: true, conditionVal: true }], exclusions: [], page: 1, pageSize: 1, version: 'v1' }));
+  if (!j || j.code !== 1) continue;
   const d = j.data;
   out.commanders[name] = {
     base: d.base,
     heroes: pickTop(d.heroes, 8),
     talents: pickTop(d.talents, 6),
   };
+  await flush();
   await sleep(1500);
 }
 
-function pickTop(rows, n = 6) {
-  return (rows || []).slice(0, n);
-}
-
-await mkdir(OUT_DIR, { recursive: true });
-await writeFile(path.join(OUT_DIR, 'comp-stats.json'), JSON.stringify(out, null, 1));
+await flush();
 console.log(`✅ ${Object.keys(out.comps).length} 套阵容 + ${Object.keys(out.commanders).length} 位棋手查询完成 → comp-stats.json`);
 if (blocked) process.exit(1);
