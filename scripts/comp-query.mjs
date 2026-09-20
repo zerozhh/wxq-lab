@@ -23,7 +23,13 @@ const COMPS = {
   李信运营: ['李信', '铠', '钟馗', '太乙真人', '明世隐'],
   嬴政法师: ['嬴政', '庄周', '蒙犽', '芈月', '白起'],
   海月伏击: ['苏烈', '司空震', '裴擒虎', '海月'],
+  // 绝活线（超顶级登顶局前沿，2026-09-20 勘察）
+  孙小宾绝活: ['杨玉环', '吕布', '露娜', '孙悟空', '太乙真人'],
+  镜绝活: ['孙悟空', '露娜', '阿轲', '周瑜', '甄姬', '小乔'],
+  露娜孙悟空核心: ['露娜', '孙悟空'],
 };
+// 绝活棋手单查（commander 过滤）
+const CMD_QUERIES = { 镜: '21', 孙小宾: '38' };
 
 const heroes = JSON.parse(await readFile('data/heroes.json', 'utf8'));
 const idOf = Object.fromEntries(heroes.map((h) => [h.name, String(h.id)]));
@@ -73,7 +79,32 @@ if (!blocked) {
   if (j.code === 1) out.global = { base: j.data.base, total: j.data.total };
 }
 
+// 绝活棋手单查
+out.commanders = {};
+for (const [name, id] of Object.entries(CMD_QUERIES)) {
+  if (blocked) break;
+  const r = await fetch(API, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'User-Agent': 'wxq-lab/1.0 (research)' },
+    body: JSON.stringify({ time: 7, operator: 'AND', advancedMode: false, filters: [{ type: 'commander', id, switchVal: true, conditionVal: true }], exclusions: [], page: 1, pageSize: 1, version: 'v1' }),
+  }).catch(() => null);
+  if (!r?.ok) continue;
+  const j = await r.json();
+  if (j.code !== 1) continue;
+  const d = j.data;
+  out.commanders[name] = {
+    base: d.base,
+    heroes: pickTop(d.heroes, 8),
+    talents: pickTop(d.talents, 6),
+  };
+  await sleep(1500);
+}
+
+function pickTop(rows, n = 6) {
+  return (rows || []).slice(0, n);
+}
+
 await mkdir(OUT_DIR, { recursive: true });
 await writeFile(path.join(OUT_DIR, 'comp-stats.json'), JSON.stringify(out, null, 1));
-console.log(`✅ ${Object.keys(out.comps).length} 套阵容查询完成 → comp-stats.json`);
+console.log(`✅ ${Object.keys(out.comps).length} 套阵容 + ${Object.keys(out.commanders).length} 位棋手查询完成 → comp-stats.json`);
 if (blocked) process.exit(1);
