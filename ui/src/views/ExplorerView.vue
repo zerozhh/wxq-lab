@@ -167,10 +167,10 @@ const base = computed(() => result.value?.data?.base);
 const total = computed(() => result.value?.data?.total ?? 0);
 
 // 运营强度过滤（代理指标）：数据源没有段位字段，用阵容总等级推定对局强度
-// 阈值来自 24 局抽样分位数（初版，接口恢复后用 scripts/strength-survey.mjs 校准）
+// 阈值来自 09-20 快照 480 局抽样分位数（P75=1414/P90=2553；玩家池变强会通胀，定期用 strength-survey 校准）
 const strengthFilter = ref<'all' | 'high' | 'top'>('all');
-const STRENGTH_MIN = 1200;  // ≈ 总等级 P75
-const STRENGTH_TOP = 1600;  // ≈ 总等级 P90
+const STRENGTH_MIN = 1400;  // ≈ 总等级 P75
+const STRENGTH_TOP = 2500;  // ≈ 总等级 P90+
 const matchesShown = computed<ExploreMatch[]>(() => {
   if (strengthFilter.value === 'all') return matches.value;
   const min = strengthFilter.value === 'top' ? STRENGTH_TOP : STRENGTH_MIN;

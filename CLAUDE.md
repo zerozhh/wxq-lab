@@ -60,7 +60,10 @@
 ./scripts/update.sh              # 直连 API 拉取当日统计（秒级）→ data/meta/$(date +%F)/
 WXQ_FULL=1 ./scripts/update.sh   # 浏览器全量抓取模式（接口勘察时用）
 node scripts/extract-database.mjs && node scripts/split-database.mjs  # 版本更新后重跑
+gh workflow run daily-snapshot   # Actions 采集（本机 IP 被封后的主力渠道，每天 08:53 也自动跑）
 ```
+
+**采集渠道（2026-09-20 起）**：本机 IP 已被 api.datatft.com 封禁（42000，探测过频所致，curl/Node/真浏览器均被拒 = IP 级）。**主渠道 = GitHub Actions**：`.github/workflows/snapshot.yml` 每天 08:53 自动 + 可手动触发，机房 IP 未被封，跑 fetch-meta + explore-sample + comp-query 后提交回仓库（`git pull` 即得）。前端顶栏「更新数据」在本机 IP 解封前会报「数据源异常」，属预期。
 
 也可以直接在前端顶栏点**「更新数据」**：serve.mjs 的 `POST /api/update`（scripts/update-service.mjs，带并发锁）跑 fetch-meta，弹窗展示与上一份快照的差异（英雄升降/阵容增删/登顶率变动），并追加 JSONL 日志 `data/meta/updates.log`（`GET /api/update-log` 读取）。
 
@@ -91,7 +94,11 @@ explore 请求体（实测）：`{"time":7,"operator":"AND","advancedMode":false
 
 数据口径：登顶率 firstRate / 前三率 top3Rate / 平均名次 avgPlacement（6人局均值 3.50）/ 平均等级 avgLevel（觉醒质变在 10/40/100 级）；equipment-fit 的 winRateLift = 带装登顶率 − 该英雄裸装基线。
 
-**段位维度：数据源不支持**（2026-09-16 实测：explore 筛选类型白名单仅 英雄/棋手/装备/阵营/天赋，rank/tier 等全被拒；对局 52 字段无段位；竞品 UI 也无此筛选）。替代方案已上线：对局检索页的「强度过滤」，用阵容总等级做代理指标（≥1200≈P75 高强度、≥1600≈P90 顶级，**初版阈值，仅过滤对局列表不重算聚合**）。阈值校准：`node scripts/strength-survey.mjs [页数]`（限流时会自动中止——数据源有 IP 级 42000 软限流，HTTP 200 + 错误 JSON，高频探测会触发，等解除即可）。
+**段位维度：数据源不支持**（2026-09-16 实测：explore 筛选类型白名单仅 英雄/棋手/装备/阵营/天赋，rank/tier 等全被拒；对局 52 字段无段位；竞品 UI 也无此筛选）。替代方案：**运营强度代理**——用阵容总等级推定对局强度，检索页有「强度过滤」开关。**高段位研究方法**（2026-09-20 王者200+ 调研沉淀，范例 data/insights/2026-09-20-王者200分上分推荐.md）：
+1. explore 的 `matches` 是**登顶局橱窗**（placement 全为 1），不能算胜率，只能做「赢家长什么样」的原型聚类；胜率结论必须用**多英雄 AND 条件查询**（`scripts/comp-query.mjs`，全量池无偏）
+2. 强度代理阈值随时间通胀：09-16 时 P75=1233/P90=1731，09-20 已到 P75=1414/P90=2553（玩家池变强）。校准：`node scripts/strength-survey.mjs [页数]`
+3. **绝活线识别法**：超顶级登顶局聚类（`scripts/hs-analysis.py`）∩ 低争夺度（登顶样本出场率）∩ 全段位弱数据（英雄榜/棋手榜）三者交集 = 技能溢价形态，正是高段位的前沿
+4. 采样工具新旧形状不一：部分响应为精简结构（无 player_name/units 伤害明细），脚本按「字段缺失即跳过」容错
 
 ## 技术栈
 
