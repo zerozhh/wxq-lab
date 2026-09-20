@@ -40,6 +40,12 @@ jobs:
           TZ: Asia/Shanghai
         run: node scripts/explore-sample.mjs "${{ inputs.sample_pages || 30 }}"
 
+      - name: 候选阵容条件查询
+        if: ${{ !cancelled() }}
+        env:
+          TZ: Asia/Shanghai
+        run: node scripts/comp-query.mjs
+
       - name: 提交回仓库
         run: |
           git config user.name  wxq-lab-bot
