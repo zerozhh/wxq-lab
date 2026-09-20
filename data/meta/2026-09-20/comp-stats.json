@@ -1,5 +1,5 @@
 {
- "queriedAt": "2026-09-20T06:53:14.285Z",
+ "queriedAt": "2026-09-20T07:12:09.815Z",
  "global": {
   "base": {
    "count": 1137509,
@@ -254,8 +254,8 @@
     "云中君"
    ],
    "base": {
-    "count": 3977,
     "avgPlacement": 2.2298,
+    "count": 3977,
     "firstRate": 0.3827,
     "top3Rate": 0.8265
    },
@@ -399,84 +399,84 @@
    ],
    "counters": [
     {
-     "heroId": "1861",
      "count1": 1193,
-     "avgPlacement1": 2.0142,
      "count2": 1287,
-     "avgPlacement2": 2.3566,
-     "count3": 972,
      "avgPlacement3": 2.6214,
-     "count": 3452
+     "count3": 972,
+     "count": 3452,
+     "heroId": "1861",
+     "avgPlacement2": 2.3566,
+     "avgPlacement1": 2.0142
     },
     {
-     "heroId": "5051",
      "count1": 1688,
-     "avgPlacement1": 2.2536,
      "count2": 802,
-     "avgPlacement2": 2.3903,
-     "count3": 169,
      "avgPlacement3": 2.4083,
-     "count": 2659
+     "count3": 169,
+     "count": 2659,
+     "heroId": "5051",
+     "avgPlacement2": 2.3903,
+     "avgPlacement1": 2.2536
     },
     {
-     "heroId": "1891",
      "count1": 1773,
-     "avgPlacement1": 2.2561,
      "count2": 662,
-     "avgPlacement2": 2.4215,
-     "count3": 87,
      "avgPlacement3": 2.4828,
-     "count": 2522
+     "count3": 87,
+     "count": 2522,
+     "heroId": "1891",
+     "avgPlacement2": 2.4215,
+     "avgPlacement1": 2.2561
     },
     {
-     "heroId": "5771",
      "count1": 1737,
-     "avgPlacement1": 2.2683,
      "count2": 646,
-     "avgPlacement2": 2.3375,
-     "count3": 107,
      "avgPlacement3": 2.3458,
-     "count": 2490
+     "count3": 107,
+     "count": 2490,
+     "heroId": "5771",
+     "avgPlacement2": 2.3375,
+     "avgPlacement1": 2.2683
     },
     {
-     "heroId": "5011",
      "count1": 1672,
-     "avgPlacement1": 2.2996,
      "count2": 666,
-     "avgPlacement2": 2.3408,
-     "count3": 126,
      "avgPlacement3": 2.2698,
-     "count": 2464
+     "count3": 126,
+     "count": 2464,
+     "heroId": "5011",
+     "avgPlacement2": 2.3408,
+     "avgPlacement1": 2.2996
     },
     {
-     "heroId": "1751",
      "count1": 1246,
-     "avgPlacement1": 2.2504,
      "count2": 720,
-     "avgPlacement2": 2.4347,
-     "count3": 209,
      "avgPlacement3": 2.756,
-     "count": 2175
+     "count3": 209,
+     "count": 2175,
+     "heroId": "1751",
+     "avgPlacement2": 2.4347,
+     "avgPlacement1": 2.2504
     },
     {
-     "heroId": "1741",
      "count1": 1605,
-     "avgPlacement1": 2.2748,
      "count2": 424,
-     "avgPlacement2": 2.4976,
-     "count3": 50,
      "avgPlacement3": 2.18,
-     "count": 2079
+     "count3": 50,
+     "count": 2079,
+     "heroId": "1741",
+     "avgPlacement2": 2.4976,
+     "avgPlacement1": 2.2748
     },
     {
-     "heroId": "1561",
      "count1": 1551,
-     "avgPlacement1": 2.3598,
      "count2": 337,
-     "avgPlacement2": 2.4896,
-     "count3": 28,
      "avgPlacement3": 2.25,
-     "count": 1916
+     "count3": 28,
+     "count": 1916,
+     "heroId": "1561",
+     "avgPlacement2": 2.4896,
+     "avgPlacement1": 2.3598
     }
    ]
   },
@@ -489,8 +489,8 @@
     "张良"
    ],
    "base": {
-    "count": 37046,
     "avgPlacement": 2.3863,
+    "count": 37046,
     "firstRate": 0.3262,
     "top3Rate": 0.7956
    },
@@ -634,84 +634,84 @@
    ],
    "counters": [
     {
-     "heroId": "1861",
      "count1": 10929,
-     "avgPlacement1": 2.1633,
      "count2": 12547,
-     "avgPlacement2": 2.4843,
-     "count3": 9125,
      "avgPlacement3": 2.8031,
-     "count": 32601
+     "count3": 9125,
+     "count": 32601,
+     "heroId": "1861",
+     "avgPlacement2": 2.4843,
+     "avgPlacement1": 2.1633
     },
     {
-     "heroId": "5051",
      "count1": 15809,
-     "avgPlacement1": 2.4022,
      "count2": 7203,
-     "avgPlacement2": 2.5763,
-     "count3": 1621,
      "avgPlacement3": 2.6959,
-     "count": 24633
+     "count3": 1621,
+     "count": 24633,
+     "heroId": "5051",
+     "avgPlacement2": 2.5763,
+     "avgPlacement1": 2.4022
     },
     {
-     "heroId": "5011",
      "count1": 15126,
-     "avgPlacement1": 2.4485,
      "count2": 6431,
-     "avgPlacement2": 2.4724,
-     "count3": 1352,
      "avgPlacement3": 2.3735,
-     "count": 22909
+     "count3": 1352,
+     "count": 22909,
+     "heroId": "5011",
+     "avgPlacement2": 2.4724,
+     "avgPlacement1": 2.4485
     },
     {
-     "heroId": "1891",
      "count1": 15916,
-     "avgPlacement1": 2.4342,
      "count2": 5343,
-     "avgPlacement2": 2.5714,
-     "count3": 875,
      "avgPlacement3": 2.6629,
-     "count": 22134
+     "count3": 875,
+     "count": 22134,
+     "heroId": "1891",
+     "avgPlacement2": 2.5714,
+     "avgPlacement1": 2.4342
     },
     {
-     "heroId": "5771",
      "count1": 15694,
-     "avgPlacement1": 2.4372,
      "count2": 5185,
-     "avgPlacement2": 2.5792,
-     "count3": 744,
      "avgPlacement3": 2.5793,
-     "count": 21623
+     "count3": 744,
+     "count": 21623,
+     "heroId": "5771",
+     "avgPlacement2": 2.5792,
+     "avgPlacement1": 2.4372
     },
     {
-     "heroId": "1751",
      "count1": 11404,
-     "avgPlacement1": 2.4168,
      "count2": 6377,
-     "avgPlacement2": 2.6009,
-     "count3": 1800,
      "avgPlacement3": 2.7489,
-     "count": 19581
+     "count3": 1800,
+     "count": 19581,
+     "heroId": "1751",
+     "avgPlacement2": 2.6009,
+     "avgPlacement1": 2.4168
     },
     {
-     "heroId": "1741",
      "count1": 14028,
-     "avgPlacement1": 2.4584,
      "count2": 3380,
-     "avgPlacement2": 2.5408,
-     "count3": 338,
      "avgPlacement3": 2.6243,
-     "count": 17746
+     "count3": 338,
+     "count": 17746,
+     "heroId": "1741",
+     "avgPlacement2": 2.5408,
+     "avgPlacement1": 2.4584
     },
     {
-     "heroId": "1211",
      "count1": 11957,
-     "avgPlacement1": 2.4382,
      "count2": 4592,
-     "avgPlacement2": 2.3419,
-     "count3": 691,
      "avgPlacement3": 2.178,
-     "count": 17240
+     "count3": 691,
+     "count": 17240,
+     "heroId": "1211",
+     "avgPlacement2": 2.3419,
+     "avgPlacement1": 2.4382
     }
    ]
   },
@@ -1194,8 +1194,8 @@
     "明世隐"
    ],
    "base": {
-    "count": 58998,
     "avgPlacement": 2.6414,
+    "count": 58998,
     "firstRate": 0.307,
     "top3Rate": 0.7153
    },
@@ -1339,84 +1339,84 @@
    ],
    "counters": [
     {
-     "heroId": "1861",
      "count1": 18934,
-     "avgPlacement1": 2.3728,
      "count2": 20437,
-     "avgPlacement2": 2.7562,
-     "count3": 13066,
      "avgPlacement3": 3.1798,
-     "count": 52437
+     "count3": 13066,
+     "count": 52437,
+     "heroId": "1861",
+     "avgPlacement2": 2.7562,
+     "avgPlacement1": 2.3728
     },
     {
-     "heroId": "1751",
      "count1": 24877,
-     "avgPlacement1": 2.6826,
      "count2": 11115,
-     "avgPlacement2": 2.9851,
-     "count3": 2401,
      "avgPlacement3": 3.2474,
-     "count": 38393
+     "count3": 2401,
+     "count": 38393,
+     "heroId": "1751",
+     "avgPlacement2": 2.9851,
+     "avgPlacement1": 2.6826
     },
     {
-     "heroId": "1941",
      "count1": 24250,
-     "avgPlacement1": 2.6776,
      "count2": 9576,
-     "avgPlacement2": 2.6756,
-     "count3": 1731,
      "avgPlacement3": 2.5731,
-     "count": 35557
+     "count3": 1731,
+     "count": 35557,
+     "heroId": "1941",
+     "avgPlacement2": 2.6756,
+     "avgPlacement1": 2.6776
     },
     {
-     "heroId": "1441",
      "count1": 24340,
-     "avgPlacement1": 2.6745,
      "count2": 8475,
-     "avgPlacement2": 2.756,
-     "count3": 1374,
      "avgPlacement3": 2.8224,
-     "count": 34189
+     "count3": 1374,
+     "count": 34189,
+     "heroId": "1441",
+     "avgPlacement2": 2.756,
+     "avgPlacement1": 2.6745
     },
     {
-     "heroId": "5011",
      "count1": 23744,
-     "avgPlacement1": 2.7313,
      "count2": 8049,
-     "avgPlacement2": 2.9005,
-     "count3": 1315,
      "avgPlacement3": 2.9643,
-     "count": 33108
+     "count3": 1315,
+     "count": 33108,
+     "heroId": "5011",
+     "avgPlacement2": 2.9005,
+     "avgPlacement1": 2.7313
     },
     {
-     "heroId": "5211",
      "count1": 24074,
-     "avgPlacement1": 2.6905,
      "count2": 6717,
-     "avgPlacement2": 2.7925,
-     "count3": 859,
      "avgPlacement3": 2.8114,
-     "count": 31650
+     "count3": 859,
+     "count": 31650,
+     "heroId": "5211",
+     "avgPlacement2": 2.7925,
+     "avgPlacement1": 2.6905
     },
     {
-     "heroId": "5051",
      "count1": 19093,
-     "avgPlacement1": 2.6765,
      "count2": 9584,
-     "avgPlacement2": 2.7713,
-     "count3": 2462,
      "avgPlacement3": 2.8253,
-     "count": 31139
+     "count3": 2462,
+     "count": 31139,
+     "heroId": "5051",
+     "avgPlacement2": 2.7713,
+     "avgPlacement1": 2.6765
     },
     {
-     "heroId": "5371",
      "count1": 23713,
-     "avgPlacement1": 2.6801,
      "count2": 6484,
-     "avgPlacement2": 2.6792,
-     "count3": 723,
      "avgPlacement3": 2.5892,
-     "count": 30920
+     "count3": 723,
+     "count": 30920,
+     "heroId": "5371",
+     "avgPlacement2": 2.6792,
+     "avgPlacement1": 2.6801
     }
    ]
   },
@@ -1429,8 +1429,8 @@
     "白起"
    ],
    "base": {
-    "count": 44432,
     "avgPlacement": 3.1096,
+    "count": 44432,
     "firstRate": 0.2125,
     "top3Rate": 0.6106
    },
@@ -1574,84 +1574,84 @@
    ],
    "counters": [
     {
-     "heroId": "1861",
      "count1": 11687,
-     "avgPlacement1": 2.8383,
      "count2": 15761,
-     "avgPlacement2": 3.1549,
-     "count3": 13431,
      "avgPlacement3": 3.4474,
-     "count": 40879
+     "count3": 13431,
+     "count": 40879,
+     "heroId": "1861",
+     "avgPlacement2": 3.1549,
+     "avgPlacement1": 2.8383
     },
     {
-     "heroId": "5011",
      "count1": 18773,
-     "avgPlacement1": 3.1685,
      "count2": 7864,
-     "avgPlacement2": 3.1513,
-     "count3": 1720,
      "avgPlacement3": 3.0424,
-     "count": 28357
+     "count3": 1720,
+     "count": 28357,
+     "heroId": "5011",
+     "avgPlacement2": 3.1513,
+     "avgPlacement1": 3.1685
     },
     {
-     "heroId": "1751",
      "count1": 14081,
-     "avgPlacement1": 3.1161,
      "count2": 8623,
-     "avgPlacement2": 3.2544,
-     "count3": 2612,
      "avgPlacement3": 3.4525,
-     "count": 25316
+     "count3": 2612,
+     "count": 25316,
+     "heroId": "1751",
+     "avgPlacement2": 3.2544,
+     "avgPlacement1": 3.1161
     },
     {
-     "heroId": "5051",
      "count1": 14502,
-     "avgPlacement1": 3.0883,
      "count2": 7876,
-     "avgPlacement2": 3.1916,
-     "count3": 2201,
      "avgPlacement3": 3.2658,
-     "count": 24579
+     "count3": 2201,
+     "count": 24579,
+     "heroId": "5051",
+     "avgPlacement2": 3.1916,
+     "avgPlacement1": 3.0883
     },
     {
-     "heroId": "1211",
      "count1": 17937,
-     "avgPlacement1": 3.2336,
      "count2": 4971,
-     "avgPlacement2": 3.2486,
-     "count3": 599,
      "avgPlacement3": 3.1002,
-     "count": 23507
+     "count3": 599,
+     "count": 23507,
+     "heroId": "1211",
+     "avgPlacement2": 3.2486,
+     "avgPlacement1": 3.2336
     },
     {
-     "heroId": "1891",
      "count1": 15103,
-     "avgPlacement1": 3.1205,
      "count2": 6917,
-     "avgPlacement2": 3.0872,
-     "count3": 1390,
      "avgPlacement3": 3.0741,
-     "count": 23410
+     "count3": 1390,
+     "count": 23410,
+     "heroId": "1891",
+     "avgPlacement2": 3.0872,
+     "avgPlacement1": 3.1205
     },
     {
-     "heroId": "5771",
      "count1": 15248,
-     "avgPlacement1": 3.1132,
      "count2": 6664,
-     "avgPlacement2": 3.0759,
-     "count3": 1375,
      "avgPlacement3": 3.0436,
-     "count": 23287
+     "count3": 1375,
+     "count": 23287,
+     "heroId": "5771",
+     "avgPlacement2": 3.0759,
+     "avgPlacement1": 3.1132
     },
     {
-     "heroId": "5211",
      "count1": 17365,
-     "avgPlacement1": 3.1883,
      "count2": 4638,
-     "avgPlacement2": 3.3706,
-     "count3": 597,
      "avgPlacement3": 3.5226,
-     "count": 22600
+     "count3": 597,
+     "count": 22600,
+     "heroId": "5211",
+     "avgPlacement2": 3.3706,
+     "avgPlacement1": 3.1883
     }
    ]
   },
@@ -1886,6 +1886,977 @@
      "count3": 475,
      "avgPlacement3": 3.1874,
      "count": 17737
+    }
+   ]
+  },
+  "孙小宾绝活": {
+   "heroes": [
+    "杨玉环",
+    "吕布",
+    "露娜",
+    "孙悟空",
+    "太乙真人"
+   ],
+   "base": {
+    "count": 19,
+    "avgPlacement": 1.7368,
+    "firstRate": 0.5789,
+    "top3Rate": 0.9474
+   },
+   "total": 11,
+   "topHeroes": [
+    {
+     "id": "1231",
+     "first": 0.5789,
+     "top3": 0.9474,
+     "count": 19,
+     "avgLevel": 286.7895
+    },
+    {
+     "id": "1461",
+     "first": 0.5789,
+     "top3": 0.9474,
+     "count": 19,
+     "avgLevel": 309.3684
+    },
+    {
+     "id": "1671",
+     "first": 0.5789,
+     "top3": 0.9474,
+     "count": 19,
+     "avgLevel": 362.2105
+    },
+    {
+     "id": "1761",
+     "first": 0.5789,
+     "top3": 0.9474,
+     "count": 19,
+     "avgLevel": 223.8421
+    },
+    {
+     "id": "1861",
+     "first": 0.5789,
+     "top3": 0.9474,
+     "count": 19,
+     "avgLevel": 36
+    }
+   ],
+   "eqRec": [
+    {
+     "heroId": "1761",
+     "itemId": "643208",
+     "first": 0.3333,
+     "count": 3
+    },
+    {
+     "heroId": "1761",
+     "itemId": "643802",
+     "first": 0.6667,
+     "count": 3
+    },
+    {
+     "heroId": "1761",
+     "itemId": "643105",
+     "first": 1,
+     "count": 2
+    },
+    {
+     "heroId": "1761",
+     "itemId": "643402",
+     "first": 1,
+     "count": 2
+    },
+    {
+     "heroId": "1761",
+     "itemId": "643502",
+     "first": 0.5,
+     "count": 2
+    },
+    {
+     "heroId": "1761",
+     "itemId": "643705",
+     "first": 1,
+     "count": 2
+    }
+   ],
+   "threeBuilds": [
+    {
+     "heroId": "1761",
+     "itemIds": [
+      "643105",
+      "643208",
+      "643404"
+     ],
+     "first": 1,
+     "count": 1
+    },
+    {
+     "heroId": "1761",
+     "itemIds": [
+      "643208",
+      "643502",
+      "643802"
+     ],
+     "first": 0,
+     "count": 1
+    },
+    {
+     "heroId": "1761",
+     "itemIds": [
+      "643208",
+      "643803",
+      "644104"
+     ],
+     "first": 0,
+     "count": 1
+    },
+    {
+     "heroId": "1761",
+     "itemIds": [
+      "643501",
+      "643700",
+      "643702"
+     ],
+     "first": 0,
+     "count": 1
+    },
+    {
+     "heroId": "1761",
+     "itemIds": [
+      "643703",
+      "643705",
+      "643802"
+     ],
+     "first": 1,
+     "count": 1
+    },
+    {
+     "heroId": "1231",
+     "itemIds": [
+      "641001",
+      "643501",
+      "643602"
+     ],
+     "first": 0,
+     "count": 1
+    }
+   ],
+   "counters": [
+    {
+     "heroId": "1861",
+     "count1": 9,
+     "avgPlacement1": 2.2222,
+     "count2": 7,
+     "avgPlacement2": 1.2857,
+     "count3": 3,
+     "avgPlacement3": 1.3333,
+     "count": 19
+    },
+    {
+     "heroId": "5011",
+     "count1": 10,
+     "avgPlacement1": 1.8,
+     "count2": 3,
+     "avgPlacement2": 2,
+     "count": 13
+    },
+    {
+     "heroId": "1141",
+     "count1": 9,
+     "avgPlacement1": 1.4444,
+     "count2": 2,
+     "avgPlacement2": 2.5,
+     "count": 11
+    },
+    {
+     "heroId": "5051",
+     "count1": 4,
+     "avgPlacement1": 1.25,
+     "count2": 4,
+     "avgPlacement2": 2.5,
+     "count3": 3,
+     "avgPlacement3": 2,
+     "count": 11
+    },
+    {
+     "heroId": "1461",
+     "count1": 8,
+     "avgPlacement1": 1.75,
+     "count2": 2,
+     "avgPlacement2": 2,
+     "count": 10
+    },
+    {
+     "heroId": "1991",
+     "count1": 8,
+     "avgPlacement1": 2,
+     "count2": 2,
+     "avgPlacement2": 2,
+     "count": 10
+    },
+    {
+     "heroId": "1061",
+     "count1": 7,
+     "avgPlacement1": 1.8571,
+     "count2": 2,
+     "avgPlacement2": 2,
+     "count3": 1,
+     "avgPlacement3": 1,
+     "count": 10
+    },
+    {
+     "heroId": "1751",
+     "count1": 7,
+     "avgPlacement1": 2,
+     "count2": 3,
+     "avgPlacement2": 1.3333,
+     "count": 10
+    }
+   ]
+  },
+  "镜绝活": {
+   "heroes": [
+    "孙悟空",
+    "露娜",
+    "阿轲",
+    "周瑜",
+    "甄姬",
+    "小乔"
+   ],
+   "base": {
+    "count": 22871,
+    "avgPlacement": 2.8386,
+    "firstRate": 0.4019,
+    "top3Rate": 0.6259
+   },
+   "total": 9191,
+   "topHeroes": [
+    {
+     "id": "1061",
+     "first": 0.4019,
+     "top3": 0.6259,
+     "count": 22871,
+     "avgLevel": 166.6344
+    },
+    {
+     "id": "1161",
+     "first": 0.4019,
+     "top3": 0.6259,
+     "count": 22871,
+     "avgLevel": 322.3912
+    },
+    {
+     "id": "1241",
+     "first": 0.4019,
+     "top3": 0.6259,
+     "count": 22871,
+     "avgLevel": 207.8979
+    },
+    {
+     "id": "1271",
+     "first": 0.4019,
+     "top3": 0.6259,
+     "count": 22871,
+     "avgLevel": 180.6323
+    },
+    {
+     "id": "1461",
+     "first": 0.4019,
+     "top3": 0.6259,
+     "count": 22871,
+     "avgLevel": 240.2477
+    }
+   ],
+   "eqRec": [
+    {
+     "heroId": "1671",
+     "itemId": "643103",
+     "first": 0.4788,
+     "count": 11040
+    },
+    {
+     "heroId": "1671",
+     "itemId": "643703",
+     "first": 0.4693,
+     "count": 7553
+    },
+    {
+     "heroId": "1671",
+     "itemId": "643803",
+     "first": 0.4586,
+     "count": 6383
+    },
+    {
+     "heroId": "1671",
+     "itemId": "641010",
+     "first": 0.4479,
+     "count": 6002
+    },
+    {
+     "heroId": "1671",
+     "itemId": "643404",
+     "first": 0.4521,
+     "count": 3935
+    },
+    {
+     "heroId": "1671",
+     "itemId": "643304",
+     "first": 0.4678,
+     "count": 2952
+    }
+   ],
+   "threeBuilds": [
+    {
+     "heroId": "1671",
+     "itemIds": [
+      "643103",
+      "643703",
+      "643803"
+     ],
+     "first": 0.5342,
+     "count": 790
+    },
+    {
+     "heroId": "1671",
+     "itemIds": [
+      "641010",
+      "643103",
+      "643703"
+     ],
+     "first": 0.5485,
+     "count": 722
+    },
+    {
+     "heroId": "1671",
+     "itemIds": [
+      "643103",
+      "643404",
+      "643803"
+     ],
+     "first": 0.5125,
+     "count": 722
+    },
+    {
+     "heroId": "1671",
+     "itemIds": [
+      "641010",
+      "643103",
+      "643803"
+     ],
+     "first": 0.573,
+     "count": 534
+    },
+    {
+     "heroId": "1671",
+     "itemIds": [
+      "643103",
+      "643304",
+      "643703"
+     ],
+     "first": 0.512,
+     "count": 332
+    },
+    {
+     "heroId": "1671",
+     "itemIds": [
+      "643103",
+      "643404",
+      "643703"
+     ],
+     "first": 0.5438,
+     "count": 331
+    }
+   ],
+   "counters": [
+    {
+     "heroId": "1861",
+     "count1": 6405,
+     "avgPlacement1": 2.5721,
+     "count2": 7717,
+     "avgPlacement2": 2.9515,
+     "count3": 6240,
+     "avgPlacement3": 3.2744,
+     "count": 20362
+    },
+    {
+     "heroId": "5011",
+     "count1": 9156,
+     "avgPlacement1": 2.9636,
+     "count2": 3705,
+     "avgPlacement2": 2.9806,
+     "count3": 815,
+     "avgPlacement3": 3.0049,
+     "count": 13676
+    },
+    {
+     "heroId": "1591",
+     "count1": 9078,
+     "avgPlacement1": 2.7798,
+     "count2": 2849,
+     "avgPlacement2": 2.4409,
+     "count3": 359,
+     "avgPlacement3": 2.2897,
+     "count": 12286
+    },
+    {
+     "heroId": "5051",
+     "count1": 6794,
+     "avgPlacement1": 2.7286,
+     "count2": 4056,
+     "avgPlacement2": 2.9132,
+     "count3": 1161,
+     "avgPlacement3": 3.0396,
+     "count": 12011
+    },
+    {
+     "heroId": "1281",
+     "count1": 9028,
+     "avgPlacement1": 2.92,
+     "count2": 2539,
+     "avgPlacement2": 2.8236,
+     "count3": 301,
+     "avgPlacement3": 2.5748,
+     "count": 11868
+    },
+    {
+     "heroId": "1751",
+     "count1": 6313,
+     "avgPlacement1": 2.8189,
+     "count2": 3711,
+     "avgPlacement2": 3.1374,
+     "count3": 1182,
+     "avgPlacement3": 3.2986,
+     "count": 11206
+    },
+    {
+     "heroId": "5041",
+     "count1": 8516,
+     "avgPlacement1": 2.7107,
+     "count2": 2280,
+     "avgPlacement2": 2.5193,
+     "count3": 284,
+     "avgPlacement3": 2.1866,
+     "count": 11080
+    },
+    {
+     "heroId": "5211",
+     "count1": 8410,
+     "avgPlacement1": 2.9524,
+     "count2": 2214,
+     "avgPlacement2": 3.1847,
+     "count3": 296,
+     "avgPlacement3": 3.4459,
+     "count": 10920
+    }
+   ]
+  },
+  "露娜孙悟空核心": {
+   "heroes": [
+    "露娜",
+    "孙悟空"
+   ],
+   "base": {
+    "count": 43901,
+    "avgPlacement": 3.0613,
+    "firstRate": 0.346,
+    "top3Rate": 0.5783
+   },
+   "total": 15191,
+   "topHeroes": [
+    {
+     "id": "1461",
+     "first": 0.346,
+     "top3": 0.5783,
+     "count": 43901,
+     "avgLevel": 232.8081
+    },
+    {
+     "id": "1671",
+     "first": 0.346,
+     "top3": 0.5783,
+     "count": 43901,
+     "avgLevel": 294.6527
+    },
+    {
+     "id": "1281",
+     "first": 0.3674,
+     "top3": 0.5741,
+     "count": 33512,
+     "avgLevel": 182.0705
+    },
+    {
+     "id": "1271",
+     "first": 0.3722,
+     "top3": 0.5839,
+     "count": 33199,
+     "avgLevel": 172.4178
+    },
+    {
+     "id": "1161",
+     "first": 0.343,
+     "top3": 0.5565,
+     "count": 31963,
+     "avgLevel": 285.9728
+    }
+   ],
+   "eqRec": [
+    {
+     "heroId": "1461",
+     "itemId": "643705",
+     "first": 0.5785,
+     "count": 8771
+    },
+    {
+     "heroId": "1461",
+     "itemId": "643802",
+     "first": 0.52,
+     "count": 7859
+    },
+    {
+     "heroId": "1461",
+     "itemId": "643402",
+     "first": 0.4657,
+     "count": 7799
+    },
+    {
+     "heroId": "1461",
+     "itemId": "643202",
+     "first": 0.4621,
+     "count": 6570
+    },
+    {
+     "heroId": "1461",
+     "itemId": "643803",
+     "first": 0.4781,
+     "count": 6444
+    },
+    {
+     "heroId": "1461",
+     "itemId": "643207",
+     "first": 0.4539,
+     "count": 4043
+    }
+   ],
+   "threeBuilds": [
+    {
+     "heroId": "1461",
+     "itemIds": [
+      "643402",
+      "643705",
+      "643802"
+     ],
+     "first": 0.6963,
+     "count": 563
+    },
+    {
+     "heroId": "1461",
+     "itemIds": [
+      "643705",
+      "643802",
+      "643803"
+     ],
+     "first": 0.6971,
+     "count": 373
+    },
+    {
+     "heroId": "1461",
+     "itemIds": [
+      "643202",
+      "643402",
+      "643803"
+     ],
+     "first": 0.5758,
+     "count": 330
+    },
+    {
+     "heroId": "1461",
+     "itemIds": [
+      "643207",
+      "643705",
+      "643802"
+     ],
+     "first": 0.8055,
+     "count": 293
+    },
+    {
+     "heroId": "1461",
+     "itemIds": [
+      "643402",
+      "643705",
+      "643803"
+     ],
+     "first": 0.6175,
+     "count": 285
+    },
+    {
+     "heroId": "1461",
+     "itemIds": [
+      "643202",
+      "643402",
+      "643705"
+     ],
+     "first": 0.5448,
+     "count": 279
+    }
+   ],
+   "counters": [
+    {
+     "heroId": "1861",
+     "count1": 12670,
+     "avgPlacement1": 2.8461,
+     "count2": 15047,
+     "avgPlacement2": 3.1691,
+     "count3": 11412,
+     "avgPlacement3": 3.4249,
+     "count": 39129
+    },
+    {
+     "heroId": "5011",
+     "count1": 17535,
+     "avgPlacement1": 3.1612,
+     "count2": 6856,
+     "avgPlacement2": 3.1553,
+     "count3": 1405,
+     "avgPlacement3": 3.1238,
+     "count": 25796
+    },
+    {
+     "heroId": "1591",
+     "count1": 17546,
+     "avgPlacement1": 3.0146,
+     "count2": 5434,
+     "avgPlacement2": 2.7797,
+     "count3": 764,
+     "avgPlacement3": 2.7736,
+     "count": 23744
+    },
+    {
+     "heroId": "5051",
+     "count1": 13338,
+     "avgPlacement1": 3.0005,
+     "count2": 7652,
+     "avgPlacement2": 3.107,
+     "count3": 2271,
+     "avgPlacement3": 3.2321,
+     "count": 23261
+    },
+    {
+     "heroId": "1281",
+     "count1": 17123,
+     "avgPlacement1": 3.1141,
+     "count2": 5180,
+     "avgPlacement2": 3.0699,
+     "count3": 666,
+     "avgPlacement3": 2.9429,
+     "count": 22969
+    },
+    {
+     "heroId": "1751",
+     "count1": 12253,
+     "avgPlacement1": 3.039,
+     "count2": 7179,
+     "avgPlacement2": 3.2762,
+     "count3": 2251,
+     "avgPlacement3": 3.4203,
+     "count": 21683
+    },
+    {
+     "heroId": "5041",
+     "count1": 16342,
+     "avgPlacement1": 2.9724,
+     "count2": 4456,
+     "avgPlacement2": 2.8593,
+     "count3": 599,
+     "avgPlacement3": 2.7346,
+     "count": 21397
+    },
+    {
+     "heroId": "1461",
+     "count1": 16683,
+     "avgPlacement1": 3.2649,
+     "count2": 4049,
+     "avgPlacement2": 3.6436,
+     "count3": 421,
+     "avgPlacement3": 4.0523,
+     "count": 21153
+    }
+   ]
+  }
+ },
+ "commanders": {
+  "镜": {
+   "base": {
+    "count": 37496,
+    "avgPlacement": 3.6366,
+    "firstRate": 0.1515,
+    "top3Rate": 0.4715
+   },
+   "heroes": [
+    {
+     "id": "1161",
+     "count": 16357,
+     "avgPlacement": 3.5409,
+     "firstRate": 0.1725,
+     "top3Rate": 0.4976,
+     "avgLevel": 171.4491
+    },
+    {
+     "id": "5111",
+     "count": 14998,
+     "avgPlacement": 3.3947,
+     "firstRate": 0.165,
+     "top3Rate": 0.5463,
+     "avgLevel": 215.8412
+    },
+    {
+     "id": "5021",
+     "count": 14414,
+     "avgPlacement": 3.312,
+     "firstRate": 0.1798,
+     "top3Rate": 0.5678,
+     "avgLevel": 335.0871
+    },
+    {
+     "id": "5011",
+     "count": 13129,
+     "avgPlacement": 3.5015,
+     "firstRate": 0.1574,
+     "top3Rate": 0.5162,
+     "avgLevel": 91.9481
+    },
+    {
+     "id": "1861",
+     "count": 10698,
+     "avgPlacement": 2.7342,
+     "firstRate": 0.2671,
+     "top3Rate": 0.7065,
+     "avgLevel": 25.839
+    },
+    {
+     "id": "1281",
+     "count": 7902,
+     "avgPlacement": 3.7535,
+     "firstRate": 0.187,
+     "top3Rate": 0.4253,
+     "avgLevel": 129.5039
+    },
+    {
+     "id": "1271",
+     "count": 6676,
+     "avgPlacement": 3.4763,
+     "firstRate": 0.2233,
+     "top3Rate": 0.491,
+     "avgLevel": 133.6613
+    },
+    {
+     "id": "1061",
+     "count": 6497,
+     "avgPlacement": 3.5586,
+     "firstRate": 0.2006,
+     "top3Rate": 0.4745,
+     "avgLevel": 115.8339
+    }
+   ],
+   "talents": [
+    {
+     "id": "662107",
+     "count": 8979,
+     "avgPlacement": 2.7389,
+     "firstRate": 0.2498,
+     "top3Rate": 0.6981,
+     "cardType": "commander_skill",
+     "commanderId": "21"
+    },
+    {
+     "id": "636601",
+     "count": 2630,
+     "avgPlacement": 3.0589,
+     "firstRate": 0.2167,
+     "top3Rate": 0.635,
+     "cardType": "talent",
+     "level2AvgPlacement": 3.133,
+     "level3AvgPlacement": 3.0596,
+     "level4AvgPlacement": 3.0227
+    },
+    {
+     "id": "635046",
+     "count": 2587,
+     "avgPlacement": 2.9617,
+     "firstRate": 0.2567,
+     "top3Rate": 0.6355,
+     "cardType": "talent",
+     "level4AvgPlacement": 3.3047,
+     "level5AvgPlacement": 2.8414
+    },
+    {
+     "id": "615002",
+     "count": 2547,
+     "avgPlacement": 2.9556,
+     "firstRate": 0.2152,
+     "top3Rate": 0.6537,
+     "cardType": "talent",
+     "level4AvgPlacement": 3.2564,
+     "level5AvgPlacement": 2.8839
+    },
+    {
+     "id": "671008",
+     "count": 2213,
+     "avgPlacement": 3.2142,
+     "firstRate": 0.1907,
+     "top3Rate": 0.5775,
+     "cardType": "talent",
+     "level3AvgPlacement": 3.5543,
+     "level4AvgPlacement": 3.4798,
+     "level5AvgPlacement": 3.1128
+    },
+    {
+     "id": "623002",
+     "count": 2051,
+     "avgPlacement": 3.4135,
+     "firstRate": 0.1775,
+     "top3Rate": 0.5275,
+     "cardType": "talent",
+     "level2AvgPlacement": 3.3804,
+     "level3AvgPlacement": 3.4908,
+     "level4AvgPlacement": 5
+    }
+   ]
+  },
+  "孙小宾": {
+   "base": {
+    "count": 24715,
+    "avgPlacement": 3.8867,
+    "firstRate": 0.1642,
+    "top3Rate": 0.3814
+   },
+   "heroes": [
+    {
+     "id": "1281",
+     "count": 7605,
+     "avgPlacement": 3.7617,
+     "firstRate": 0.2279,
+     "top3Rate": 0.4054,
+     "avgLevel": 136.1917
+    },
+    {
+     "id": "1271",
+     "count": 6637,
+     "avgPlacement": 3.4588,
+     "firstRate": 0.2724,
+     "top3Rate": 0.4791,
+     "avgLevel": 148.5108
+    },
+    {
+     "id": "1461",
+     "count": 6591,
+     "avgPlacement": 2.7187,
+     "firstRate": 0.411,
+     "top3Rate": 0.6554,
+     "avgLevel": 284.0193
+    },
+    {
+     "id": "1671",
+     "count": 6167,
+     "avgPlacement": 2.8234,
+     "firstRate": 0.4381,
+     "top3Rate": 0.6277,
+     "avgLevel": 350.0853
+    },
+    {
+     "id": "1061",
+     "count": 5960,
+     "avgPlacement": 3.5906,
+     "firstRate": 0.2423,
+     "top3Rate": 0.4512,
+     "avgLevel": 122.9879
+    },
+    {
+     "id": "1241",
+     "count": 5718,
+     "avgPlacement": 2.6691,
+     "firstRate": 0.4482,
+     "top3Rate": 0.6598,
+     "avgLevel": 270.4374
+    },
+    {
+     "id": "1861",
+     "count": 5308,
+     "avgPlacement": 2.6356,
+     "firstRate": 0.3836,
+     "top3Rate": 0.6882,
+     "avgLevel": 20.582
+    },
+    {
+     "id": "1211",
+     "count": 5305,
+     "avgPlacement": 3.9762,
+     "firstRate": 0.1393,
+     "top3Rate": 0.368,
+     "avgLevel": 49.3156
+    }
+   ],
+   "talents": [
+    {
+     "id": "663805",
+     "count": 10117,
+     "avgPlacement": 2.5389,
+     "firstRate": 0.3893,
+     "top3Rate": 0.7098,
+     "cardType": "commander_skill",
+     "commanderId": "38"
+    },
+    {
+     "id": "635046",
+     "count": 1952,
+     "avgPlacement": 2.9426,
+     "firstRate": 0.3653,
+     "top3Rate": 0.6086,
+     "cardType": "talent",
+     "level4AvgPlacement": 3.2556,
+     "level5AvgPlacement": 2.8337
+    },
+    {
+     "id": "671008",
+     "count": 1553,
+     "avgPlacement": 3.2827,
+     "firstRate": 0.2576,
+     "top3Rate": 0.528,
+     "cardType": "talent",
+     "level3AvgPlacement": 3.2667,
+     "level4AvgPlacement": 3.4543,
+     "level5AvgPlacement": 3.2373
+    },
+    {
+     "id": "615002",
+     "count": 1483,
+     "avgPlacement": 3.0607,
+     "firstRate": 0.2987,
+     "top3Rate": 0.5765,
+     "cardType": "talent",
+     "level4AvgPlacement": 3.545,
+     "level5AvgPlacement": 2.9754
+    },
+    {
+     "id": "634028",
+     "count": 1213,
+     "avgPlacement": 3.6628,
+     "firstRate": 0.1591,
+     "top3Rate": 0.4287,
+     "cardType": "talent",
+     "level3AvgPlacement": 3.7609,
+     "level4AvgPlacement": 3.6688,
+     "level5AvgPlacement": 3.6324
+    },
+    {
+     "id": "633020",
+     "count": 1207,
+     "avgPlacement": 3.604,
+     "firstRate": 0.1997,
+     "top3Rate": 0.4466,
+     "cardType": "talent",
+     "level3AvgPlacement": 3.8618,
+     "level4AvgPlacement": 3.6792,
+     "level5AvgPlacement": 3.5238
     }
    ]
   }
