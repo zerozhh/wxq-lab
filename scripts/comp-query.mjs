@@ -44,6 +44,7 @@ for (const [name, list] of Object.entries(COMPS)) {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'User-Agent': 'wxq-lab/1.0 (research)' },
     body,
+    signal: AbortSignal.timeout(20000),
   }).catch(() => null);
   if (!r?.ok) { console.error(`${name}: HTTP ${r?.status ?? 'network'}`); continue; }
   const j = await r.json();

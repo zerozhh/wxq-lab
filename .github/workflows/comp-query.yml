@@ -1,0 +1,27 @@
+# 仅运行阵容条件查询（轻量、快）
+name: comp-query
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  query:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 候选阵容条件查询
+        env:
+          TZ: Asia/Shanghai
+        run: node scripts/comp-query.mjs
+      - name: 提交回仓库
+        run: |
+          git config user.name  wxq-lab-bot
+          git config user.email 18666086+wxq-lab-bot@users.noreply.github.com
+          DATE=$(TZ=Asia/Shanghai date +%F)
+          git add -f "data/meta/$DATE/comp-stats.json"
+          git commit -m "阵容条件统计 $DATE" || echo "无变化"
+          git push
