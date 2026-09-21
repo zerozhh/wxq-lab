@@ -14,6 +14,15 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const heroes = JSON.parse(await readFile('data/heroes.json', 'utf8'));
 const idOf = Object.fromEntries(heroes.map((h) => [h.name, String(h.id)]));
+// 装备名→id（含 details 的 previewCards，覆盖成装）
+let eqIdOf = {};
+try {
+  for (const e of JSON.parse(await readFile('data/equipment.json', 'utf8'))) eqIdOf[e.name] = String(e.id);
+  for (const e of JSON.parse(await readFile('data/equipment-details.json', 'utf8'))) {
+    eqIdOf[e.name] = String(e.id);
+    for (const pc of e.previewCards || []) eqIdOf[pc.name] = String(pc.id);
+  }
+} catch { /* 装备查询不可用时忽略 */ }
 
 // 棋手 id（来自 09-21 快照棋手榜）
 const CMD_IDS = { 明先生: '39', 瑶妹: '11', 镜: '21', 孙小宾: '38', 常小娥: '24', 白歌: '33' };
