@@ -1,0 +1,2232 @@
+{
+ "1871": {
+  "name": "东皇太一",
+  "quality": 5,
+  "faction": "大河流域",
+  "good": [
+   {
+    "item": "名刀·司命",
+    "lift": 12.6,
+    "count": 8029
+   },
+   {
+    "item": "魔女斗篷",
+    "lift": 8.6,
+    "count": 1045
+   },
+   {
+    "item": "不死鸟之眼",
+    "lift": 7.9,
+    "count": 11616
+   },
+   {
+    "item": "反伤重甲",
+    "lift": 5.8,
+    "count": 6475
+   },
+   {
+    "item": "霸者重铠",
+    "lift": 5.7,
+    "count": 6608
+   },
+   {
+    "item": "生命魔典",
+    "lift": 4.6,
+    "count": 6329
+   }
+  ],
+  "total": 14
+ },
+ "5371": {
+  "name": "司空震",
+  "quality": 5,
+  "faction": "河洛",
+  "good": [
+   {
+    "item": "金色圣剑",
+    "lift": 21.1,
+    "count": 30335
+   },
+   {
+    "item": "自然法杖",
+    "lift": 12.9,
+    "count": 1013
+   },
+   {
+    "item": "聚灵法杖",
+    "lift": 9.6,
+    "count": 1268
+   },
+   {
+    "item": "炽热支配者",
+    "lift": 8.8,
+    "count": 17758
+   },
+   {
+    "item": "痛苦面具",
+    "lift": 7.5,
+    "count": 10387
+   },
+   {
+    "item": "噬神之书",
+    "lift": 7.2,
+    "count": 1484
+   }
+  ],
+  "total": 15
+ },
+ "1231": {
+  "name": "吕布",
+  "quality": 5,
+  "faction": "三分之地",
+  "good": [
+   {
+    "item": "魔律之刃",
+    "lift": 21.8,
+    "count": 5344
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 14.7,
+    "count": 1119
+   },
+   {
+    "item": "无尽巨剑",
+    "lift": 11.5,
+    "count": 10302
+   },
+   {
+    "item": "自然法杖",
+    "lift": 10.8,
+    "count": 1184
+   },
+   {
+    "item": "霸者重铠",
+    "lift": 10.5,
+    "count": 1974
+   },
+   {
+    "item": "反伤重甲",
+    "lift": 10.4,
+    "count": 3976
+   }
+  ],
+  "total": 18
+ },
+ "1241": {
+  "name": "周瑜",
+  "quality": 5,
+  "faction": "三分之地",
+  "good": [
+   {
+    "item": "自然法杖",
+    "lift": 25.1,
+    "count": 1904
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 20.3,
+    "count": 1467
+   },
+   {
+    "item": "贤者之书",
+    "lift": 19.5,
+    "count": 1275
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 19.1,
+    "count": 2333
+   },
+   {
+    "item": "纯净苍穹",
+    "lift": 18.9,
+    "count": 1133
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 18.5,
+    "count": 1225
+   }
+  ],
+  "total": 14
+ },
+ "1481": {
+  "name": "姜子牙",
+  "quality": 5,
+  "faction": "无阵营",
+  "good": [
+   {
+    "item": "名刀·司命",
+    "lift": 20.7,
+    "count": 5224
+   },
+   {
+    "item": "痛苦面具",
+    "lift": 17.8,
+    "count": 1598
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 17.7,
+    "count": 1481
+   },
+   {
+    "item": "破茧之衣",
+    "lift": 16.0,
+    "count": 1261
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 13.2,
+    "count": 5579
+   },
+   {
+    "item": "贤者之书",
+    "lift": 12.3,
+    "count": 9048
+   }
+  ],
+  "total": 12
+ },
+ "5191": {
+  "name": "敖隐",
+  "quality": 5,
+  "faction": "大河流域",
+  "good": [
+   {
+    "item": "自然法杖",
+    "lift": 13.1,
+    "count": 9482
+   },
+   {
+    "item": "炽热支配者",
+    "lift": 4.0,
+    "count": 9695
+   },
+   {
+    "item": "破晓",
+    "lift": 3.4,
+    "count": 9733
+   },
+   {
+    "item": "日渊",
+    "lift": 3.3,
+    "count": 4901
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 3.3,
+    "count": 10227
+   }
+  ],
+  "total": 14
+ },
+ "1761": {
+  "name": "杨玉环",
+  "quality": 5,
+  "faction": "无阵营",
+  "good": [
+   {
+    "item": "贤者之书",
+    "lift": 17.6,
+    "count": 9245
+   },
+   {
+    "item": "法源之杯",
+    "lift": 13.7,
+    "count": 12075
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 8.2,
+    "count": 6268
+   },
+   {
+    "item": "自然法杖",
+    "lift": 7.4,
+    "count": 6009
+   },
+   {
+    "item": "纯净苍穹",
+    "lift": 6.5,
+    "count": 4388
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 6.3,
+    "count": 1802
+   }
+  ],
+  "total": 9
+ },
+ "1361": {
+  "name": "武则天",
+  "quality": 5,
+  "faction": "河洛",
+  "good": [
+   {
+    "item": "破茧之衣",
+    "lift": 9.8,
+    "count": 1218
+   },
+   {
+    "item": "自然法杖",
+    "lift": 5.6,
+    "count": 1892
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 4.1,
+    "count": 1530
+   }
+  ],
+  "total": 7
+ },
+ "5211": {
+  "name": "海月",
+  "quality": 5,
+  "faction": "无阵营",
+  "good": [
+   {
+    "item": "机器头",
+    "lift": 22.3,
+    "count": 1167
+   },
+   {
+    "item": "御灵之纱",
+    "lift": 20.7,
+    "count": 2880
+   },
+   {
+    "item": "护命灵珠",
+    "lift": 16.7,
+    "count": 3747
+   },
+   {
+    "item": "不死鸟之眼",
+    "lift": 13.5,
+    "count": 23823
+   },
+   {
+    "item": "反伤重甲",
+    "lift": 12.3,
+    "count": 10013
+   },
+   {
+    "item": "学识宝石",
+    "lift": 11.3,
+    "count": 1047
+   }
+  ],
+  "total": 27
+ },
+ "5631": {
+  "name": "海诺",
+  "quality": 5,
+  "faction": "日落海",
+  "good": [
+   {
+    "item": "自然法杖",
+    "lift": 7.6,
+    "count": 3048
+   },
+   {
+    "item": "贤者之书",
+    "lift": 4.9,
+    "count": 5313
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 4.1,
+    "count": 3006
+   }
+  ],
+  "total": 10
+ },
+ "1541": {
+  "name": "花木兰",
+  "quality": 5,
+  "faction": "河洛",
+  "good": [
+   {
+    "item": "魂灭灵冠",
+    "lift": 30.5,
+    "count": 1154
+   },
+   {
+    "item": "机器头",
+    "lift": 26.4,
+    "count": 2121
+   },
+   {
+    "item": "凝渊",
+    "lift": 11.2,
+    "count": 11492
+   },
+   {
+    "item": "反伤重甲",
+    "lift": 10.7,
+    "count": 7794
+   },
+   {
+    "item": "无尽巨剑",
+    "lift": 8.9,
+    "count": 13447
+   }
+  ],
+  "total": 20
+ },
+ "1461": {
+  "name": "露娜",
+  "quality": 5,
+  "faction": "日落海",
+  "good": [
+   {
+    "item": "贤者之书",
+    "lift": 30.2,
+    "count": 7142
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 28.2,
+    "count": 11021
+   },
+   {
+    "item": "噬神之书",
+    "lift": 17.5,
+    "count": 1042
+   },
+   {
+    "item": "聚灵水晶",
+    "lift": 16.3,
+    "count": 1898
+   },
+   {
+    "item": "自然法杖",
+    "lift": 15.9,
+    "count": 2420
+   },
+   {
+    "item": "金色圣剑",
+    "lift": 10.7,
+    "count": 3894
+   }
+  ],
+  "total": 12
+ },
+ "1121": {
+  "name": "鲁班七号",
+  "quality": 5,
+  "faction": "逐鹿",
+  "good": [
+   {
+    "item": "制裁之剑",
+    "lift": 12.5,
+    "count": 1117
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 8.9,
+    "count": 2025
+   }
+  ],
+  "total": 7
+ },
+ "5251": {
+  "name": "鲁班大师",
+  "quality": 5,
+  "faction": "逐鹿",
+  "good": [
+   {
+    "item": "名刀·司命",
+    "lift": 12.3,
+    "count": 1055
+   }
+  ],
+  "total": 4
+ },
+ "5131": {
+  "name": "上官婉儿",
+  "quality": 4,
+  "faction": "河洛",
+  "good": [
+   {
+    "item": "破茧之衣",
+    "lift": 9.1,
+    "count": 1178
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 5.7,
+    "count": 1353
+   }
+  ],
+  "total": 6
+ },
+ "1491": {
+  "name": "刘邦",
+  "quality": 4,
+  "faction": "大河流域",
+  "good": [
+   {
+    "item": "纯净苍穹",
+    "lift": 4.4,
+    "count": 2136
+   },
+   {
+    "item": "金色圣剑",
+    "lift": 3.4,
+    "count": 2987
+   },
+   {
+    "item": "反伤重甲",
+    "lift": 3.1,
+    "count": 1022
+   }
+  ],
+  "total": 5
+ },
+ "5171": {
+  "name": "大司命",
+  "quality": 4,
+  "faction": "大河流域",
+  "good": [
+   {
+    "item": "名刀·司命",
+    "lift": 8.8,
+    "count": 3207
+   },
+   {
+    "item": "铸梦·逐风",
+    "lift": 7.9,
+    "count": 4748
+   },
+   {
+    "item": "破茧之衣",
+    "lift": 7.6,
+    "count": 1699
+   },
+   {
+    "item": "破晓",
+    "lift": 5.2,
+    "count": 2685
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 5.1,
+    "count": 3556
+   },
+   {
+    "item": "炽热支配者",
+    "lift": 4.7,
+    "count": 1428
+   }
+  ],
+  "total": 13
+ },
+ "1861": {
+  "name": "太乙真人",
+  "quality": 4,
+  "faction": "无阵营",
+  "good": [
+   {
+    "item": "近卫荣耀",
+    "lift": 11.4,
+    "count": 15488
+   },
+   {
+    "item": "凝渊",
+    "lift": 11.4,
+    "count": 1170
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 9.7,
+    "count": 6825
+   },
+   {
+    "item": "霸者重铠",
+    "lift": 9.5,
+    "count": 1452
+   },
+   {
+    "item": "铸梦·逐风",
+    "lift": 9.2,
+    "count": 1033
+   },
+   {
+    "item": "聚灵水晶",
+    "lift": 8.5,
+    "count": 1098
+   }
+  ],
+  "total": 20
+ },
+ "1101": {
+  "name": "嬴政",
+  "quality": 4,
+  "faction": "逐鹿",
+  "good": [
+   {
+    "item": "机器头",
+    "lift": 28.4,
+    "count": 5598
+   },
+   {
+    "item": "分身镜",
+    "lift": 19.2,
+    "count": 1663
+   },
+   {
+    "item": "噬神之书",
+    "lift": 15.4,
+    "count": 5705
+   },
+   {
+    "item": "梦魇之牙",
+    "lift": 11.0,
+    "count": 2466
+   },
+   {
+    "item": "魂祭绝刃",
+    "lift": 7.9,
+    "count": 1852
+   },
+   {
+    "item": "护命灵珠",
+    "lift": 6.9,
+    "count": 1640
+   }
+  ],
+  "total": 18
+ },
+ "1671": {
+  "name": "孙悟空",
+  "quality": 4,
+  "faction": "无阵营",
+  "good": [
+   {
+    "item": "无尽巨剑",
+    "lift": 21.3,
+    "count": 12772
+   },
+   {
+    "item": "聚灵水晶",
+    "lift": 19.2,
+    "count": 4875
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 15.3,
+    "count": 3475
+   },
+   {
+    "item": "炽热支配者",
+    "lift": 14.1,
+    "count": 7985
+   },
+   {
+    "item": "凝渊",
+    "lift": 12.4,
+    "count": 8142
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 11.3,
+    "count": 9130
+   }
+  ],
+  "total": 9
+ },
+ "1061": {
+  "name": "小乔",
+  "quality": 4,
+  "faction": "三分之地",
+  "good": [
+   {
+    "item": "自然法杖",
+    "lift": 4.8,
+    "count": 1772
+   }
+  ],
+  "total": 4
+ },
+ "1131": {
+  "name": "庄周",
+  "quality": 4,
+  "faction": "逐鹿",
+  "good": [
+   {
+    "item": "御灵之纱",
+    "lift": 22.0,
+    "count": 1643
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 20.9,
+    "count": 4156
+   },
+   {
+    "item": "破茧之衣",
+    "lift": 11.4,
+    "count": 1463
+   },
+   {
+    "item": "霸者重铠",
+    "lift": 9.6,
+    "count": 10279
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 7.8,
+    "count": 4088
+   },
+   {
+    "item": "魔女斗篷",
+    "lift": 6.6,
+    "count": 1443
+   }
+  ],
+  "total": 14
+ },
+ "1191": {
+  "name": "扁鹊",
+  "quality": 4,
+  "faction": "逐鹿",
+  "good": [
+   {
+    "item": "破茧之衣",
+    "lift": 13.8,
+    "count": 1280
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 12.8,
+    "count": 1558
+   },
+   {
+    "item": "法源之杯",
+    "lift": 6.2,
+    "count": 2749
+   },
+   {
+    "item": "纯净苍穹",
+    "lift": 5.3,
+    "count": 1987
+   },
+   {
+    "item": "贤者之书",
+    "lift": 4.8,
+    "count": 1738
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 4.1,
+    "count": 1953
+   }
+  ],
+  "total": 9
+ },
+ "5071": {
+  "name": "李信",
+  "quality": 4,
+  "faction": "河洛",
+  "good": [
+   {
+    "item": "自然法杖",
+    "lift": 12.7,
+    "count": 10087
+   },
+   {
+    "item": "凝渊",
+    "lift": 11.4,
+    "count": 15870
+   },
+   {
+    "item": "反伤重甲",
+    "lift": 11.0,
+    "count": 3102
+   },
+   {
+    "item": "怒莲之刺",
+    "lift": 8.7,
+    "count": 1043
+   },
+   {
+    "item": "护命灵珠",
+    "lift": 7.9,
+    "count": 1452
+   },
+   {
+    "item": "征服之剑",
+    "lift": 7.0,
+    "count": 2836
+   }
+  ],
+  "total": 22
+ },
+ "1311": {
+  "name": "李白",
+  "quality": 4,
+  "faction": "河洛",
+  "good": [
+   {
+    "item": "凝渊",
+    "lift": 3.5,
+    "count": 3361
+   },
+   {
+    "item": "无尽巨剑",
+    "lift": 3.4,
+    "count": 4301
+   }
+  ],
+  "total": 7
+ },
+ "1271": {
+  "name": "甄姬",
+  "quality": 4,
+  "faction": "三分之地",
+  "good": [
+   {
+    "item": "魔律之刃",
+    "lift": 16.1,
+    "count": 1229
+   },
+   {
+    "item": "自然法杖",
+    "lift": 14.7,
+    "count": 2949
+   },
+   {
+    "item": "法源之杯",
+    "lift": 8.8,
+    "count": 2261
+   },
+   {
+    "item": "贤者之书",
+    "lift": 6.2,
+    "count": 1754
+   }
+  ],
+  "total": 4
+ },
+ "3551": {
+  "name": "艾琳",
+  "quality": 4,
+  "faction": "日落海",
+  "good": [
+   {
+    "item": "末世",
+    "lift": 12.7,
+    "count": 2582
+   },
+   {
+    "item": "寒霜侵袭",
+    "lift": 6.6,
+    "count": 12696
+   },
+   {
+    "item": "破晓",
+    "lift": 6.3,
+    "count": 6633
+   },
+   {
+    "item": "炽热支配者",
+    "lift": 5.0,
+    "count": 11289
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 4.0,
+    "count": 8838
+   }
+  ],
+  "total": 13
+ },
+ "5451": {
+  "name": "莱西奥",
+  "quality": 4,
+  "faction": "日落海",
+  "good": [
+   {
+    "item": "破晓",
+    "lift": 13.8,
+    "count": 1119
+   },
+   {
+    "item": "影牙",
+    "lift": 4.0,
+    "count": 1168
+   }
+  ],
+  "total": 2
+ },
+ "5241": {
+  "name": "蒙犽",
+  "quality": 4,
+  "faction": "逐鹿",
+  "good": [
+   {
+    "item": "法源之杯",
+    "lift": 6.6,
+    "count": 2788
+   },
+   {
+    "item": "自然法杖",
+    "lift": 5.8,
+    "count": 1236
+   },
+   {
+    "item": "炽热支配者",
+    "lift": 4.6,
+    "count": 2248
+   }
+  ],
+  "total": 8
+ },
+ "1901": {
+  "name": "诸葛亮",
+  "quality": 4,
+  "faction": "三分之地",
+  "good": [
+   {
+    "item": "自然法杖",
+    "lift": 13.8,
+    "count": 8835
+   },
+   {
+    "item": "贤者之书",
+    "lift": 7.1,
+    "count": 9398
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 5.3,
+    "count": 5909
+   }
+  ],
+  "total": 10
+ },
+ "1831": {
+  "name": "雅典娜",
+  "quality": 4,
+  "faction": "日落海",
+  "good": [
+   {
+    "item": "霸者重铠",
+    "lift": 8.6,
+    "count": 2908
+   },
+   {
+    "item": "反伤重甲",
+    "lift": 7.2,
+    "count": 2959
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 6.9,
+    "count": 1372
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 5.8,
+    "count": 1961
+   },
+   {
+    "item": "不死鸟之眼",
+    "lift": 4.9,
+    "count": 6308
+   },
+   {
+    "item": "生命魔典",
+    "lift": 4.7,
+    "count": 1481
+   }
+  ],
+  "total": 10
+ },
+ "1501": {
+  "name": "韩信",
+  "quality": 4,
+  "faction": "大河流域",
+  "good": [
+   {
+    "item": "炽热支配者",
+    "lift": 7.8,
+    "count": 2238
+   },
+   {
+    "item": "自然法杖",
+    "lift": 7.4,
+    "count": 1548
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 7.2,
+    "count": 1793
+   },
+   {
+    "item": "铸梦·逐风",
+    "lift": 5.4,
+    "count": 2443
+   },
+   {
+    "item": "无尽巨剑",
+    "lift": 5.3,
+    "count": 1381
+   }
+  ],
+  "total": 6
+ },
+ "5061": {
+  "name": "云中君",
+  "quality": 3,
+  "faction": "大河流域",
+  "good": [
+   {
+    "item": "破茧之衣",
+    "lift": 14.4,
+    "count": 3642
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 11.8,
+    "count": 3105
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 6.0,
+    "count": 1250
+   },
+   {
+    "item": "铸梦·逐风",
+    "lift": 4.1,
+    "count": 2151
+   },
+   {
+    "item": "无尽巨剑",
+    "lift": 3.5,
+    "count": 1586
+   }
+  ],
+  "total": 8
+ },
+ "1661": {
+  "name": "亚瑟",
+  "quality": 3,
+  "faction": "日落海",
+  "good": [
+   {
+    "item": "霸者重铠",
+    "lift": 23.6,
+    "count": 1753
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 14.6,
+    "count": 1347
+   },
+   {
+    "item": "反伤重甲",
+    "lift": 10.4,
+    "count": 1322
+   }
+  ],
+  "total": 6
+ },
+ "1141": {
+  "name": "刘禅",
+  "quality": 3,
+  "faction": "三分之地",
+  "good": [
+   {
+    "item": "破茧之衣",
+    "lift": 13.9,
+    "count": 1333
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 11.5,
+    "count": 1661
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 11.4,
+    "count": 1033
+   },
+   {
+    "item": "生命魔典",
+    "lift": 5.1,
+    "count": 1339
+   }
+  ],
+  "total": 10
+ },
+ "5641": {
+  "name": "姬小满",
+  "quality": 3,
+  "faction": "日落海",
+  "good": [
+   {
+    "item": "霸者重铠",
+    "lift": 26.4,
+    "count": 1455
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 19.3,
+    "count": 1021
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 13.0,
+    "count": 1526
+   },
+   {
+    "item": "聚灵水晶",
+    "lift": 10.6,
+    "count": 1350
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 4.8,
+    "count": 1005
+   }
+  ],
+  "total": 6
+ },
+ "1421": {
+  "name": "安琪拉",
+  "quality": 3,
+  "faction": "日落海",
+  "good": [],
+  "total": 8
+ },
+ "5771": {
+  "name": "少司缘",
+  "quality": 3,
+  "faction": "大河流域",
+  "good": [
+   {
+    "item": "名刀·司命",
+    "lift": 14.4,
+    "count": 2813
+   },
+   {
+    "item": "破茧之衣",
+    "lift": 10.1,
+    "count": 6699
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 5.1,
+    "count": 3535
+   },
+   {
+    "item": "御灵之纱",
+    "lift": 4.7,
+    "count": 1999
+   },
+   {
+    "item": "自然法杖",
+    "lift": 4.6,
+    "count": 3449
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 3.5,
+    "count": 1756
+   }
+  ],
+  "total": 7
+ },
+ "1561": {
+  "name": "张良",
+  "quality": 3,
+  "faction": "大河流域",
+  "good": [
+   {
+    "item": "名刀·司命",
+    "lift": 14.2,
+    "count": 4883
+   },
+   {
+    "item": "破茧之衣",
+    "lift": 11.0,
+    "count": 6390
+   },
+   {
+    "item": "法源之杯",
+    "lift": 8.1,
+    "count": 4922
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 7.7,
+    "count": 2252
+   },
+   {
+    "item": "炽热支配者",
+    "lift": 6.5,
+    "count": 1575
+   },
+   {
+    "item": "自然法杖",
+    "lift": 6.2,
+    "count": 3891
+   }
+  ],
+  "total": 7
+ },
+ "5011": {
+  "name": "明世隐",
+  "quality": 3,
+  "faction": "无阵营",
+  "good": [
+   {
+    "item": "魔律之刃",
+    "lift": 23.9,
+    "count": 2570
+   },
+   {
+    "item": "不死鸟之眼",
+    "lift": 18.2,
+    "count": 1331
+   },
+   {
+    "item": "聚灵水晶",
+    "lift": 17.7,
+    "count": 1084
+   },
+   {
+    "item": "铸梦·逐风",
+    "lift": 17.6,
+    "count": 1222
+   },
+   {
+    "item": "纯净苍穹",
+    "lift": 17.2,
+    "count": 2239
+   },
+   {
+    "item": "贤者之书",
+    "lift": 16.0,
+    "count": 1183
+   }
+  ],
+  "total": 18
+ },
+ "1591": {
+  "name": "朵莉亚",
+  "quality": 3,
+  "faction": "日落海",
+  "good": [
+   {
+    "item": "法源之杯",
+    "lift": 10.9,
+    "count": 4260
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 10.0,
+    "count": 2668
+   },
+   {
+    "item": "自然法杖",
+    "lift": 9.9,
+    "count": 1512
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 9.7,
+    "count": 3934
+   },
+   {
+    "item": "金色圣剑",
+    "lift": 8.6,
+    "count": 1159
+   }
+  ],
+  "total": 6
+ },
+ "1331": {
+  "name": "狄仁杰",
+  "quality": 3,
+  "faction": "河洛",
+  "good": [
+   {
+    "item": "名刀·司命",
+    "lift": 3.6,
+    "count": 2893
+   },
+   {
+    "item": "日渊",
+    "lift": 3.4,
+    "count": 3987
+   }
+  ],
+  "total": 6
+ },
+ "5111": {
+  "name": "猪八戒",
+  "quality": 3,
+  "faction": "无阵营",
+  "good": [
+   {
+    "item": "机器头",
+    "lift": 27.8,
+    "count": 1303
+   },
+   {
+    "item": "护命灵珠",
+    "lift": 20.6,
+    "count": 1806
+   },
+   {
+    "item": "生命魔典",
+    "lift": 12.6,
+    "count": 12949
+   },
+   {
+    "item": "反伤重甲",
+    "lift": 12.4,
+    "count": 20511
+   },
+   {
+    "item": "魔女斗篷",
+    "lift": 8.6,
+    "count": 1316
+   },
+   {
+    "item": "纯净苍穹",
+    "lift": 7.2,
+    "count": 1764
+   }
+  ],
+  "total": 23
+ },
+ "5051": {
+  "name": "瑶",
+  "quality": 3,
+  "faction": "大河流域",
+  "good": [
+   {
+    "item": "制裁之剑",
+    "lift": 23.0,
+    "count": 4468
+   },
+   {
+    "item": "静谧之铃",
+    "lift": 18.3,
+    "count": 1451
+   },
+   {
+    "item": "不死鸟之眼",
+    "lift": 14.5,
+    "count": 3753
+   },
+   {
+    "item": "魔女斗篷",
+    "lift": 14.0,
+    "count": 1508
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 13.8,
+    "count": 17892
+   },
+   {
+    "item": "红莲炎甲",
+    "lift": 12.8,
+    "count": 2411
+   }
+  ],
+  "total": 24
+ },
+ "1201": {
+  "name": "白起",
+  "quality": 3,
+  "faction": "逐鹿",
+  "good": [
+   {
+    "item": "御灵之纱",
+    "lift": 22.2,
+    "count": 1047
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 21.2,
+    "count": 2353
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 5.2,
+    "count": 2143
+   },
+   {
+    "item": "霸者重铠",
+    "lift": 4.9,
+    "count": 3862
+   }
+  ],
+  "total": 10
+ },
+ "1441": {
+  "name": "程咬金",
+  "quality": 3,
+  "faction": "河洛",
+  "good": [
+   {
+    "item": "御灵之纱",
+    "lift": 10.1,
+    "count": 1888
+   },
+   {
+    "item": "银莲庇佑",
+    "lift": 9.3,
+    "count": 1091
+   },
+   {
+    "item": "鼓舞之戒",
+    "lift": 9.2,
+    "count": 1367
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 7.0,
+    "count": 2464
+   },
+   {
+    "item": "破茧之衣",
+    "lift": 6.8,
+    "count": 2567
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 6.4,
+    "count": 3259
+   }
+  ],
+  "total": 23
+ },
+ "1391": {
+  "name": "老夫子",
+  "quality": 3,
+  "faction": "逐鹿",
+  "good": [],
+  "total": 0
+ },
+ "1771": {
+  "name": "苍",
+  "quality": 3,
+  "faction": "无阵营",
+  "good": [
+   {
+    "item": "破晓",
+    "lift": 3.6,
+    "count": 1081
+   }
+  ],
+  "total": 1
+ },
+ "5021": {
+  "name": "裴擒虎",
+  "quality": 3,
+  "faction": "无阵营",
+  "good": [
+   {
+    "item": "名刀·司命",
+    "lift": 3.7,
+    "count": 9709
+   }
+  ],
+  "total": 15
+ },
+ "5231": {
+  "name": "西施",
+  "quality": 3,
+  "faction": "逐鹿",
+  "good": [
+   {
+    "item": "破茧之衣",
+    "lift": 17.3,
+    "count": 2480
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 14.8,
+    "count": 2705
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 14.7,
+    "count": 2007
+   },
+   {
+    "item": "炽热支配者",
+    "lift": 8.4,
+    "count": 1013
+   },
+   {
+    "item": "自然法杖",
+    "lift": 4.0,
+    "count": 3557
+   },
+   {
+    "item": "虚无法杖",
+    "lift": 4.0,
+    "count": 2332
+   }
+  ],
+  "total": 9
+ },
+ "1411": {
+  "name": "貂蝉",
+  "quality": 3,
+  "faction": "三分之地",
+  "good": [
+   {
+    "item": "贤者之书",
+    "lift": 25.8,
+    "count": 4350
+   },
+   {
+    "item": "法源之杯",
+    "lift": 23.6,
+    "count": 4279
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 21.3,
+    "count": 1585
+   },
+   {
+    "item": "自然法杖",
+    "lift": 16.0,
+    "count": 1242
+   },
+   {
+    "item": "纯净苍穹",
+    "lift": 12.8,
+    "count": 1356
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 7.0,
+    "count": 1105
+   }
+  ],
+  "total": 7
+ },
+ "1751": {
+  "name": "钟馗",
+  "quality": 3,
+  "faction": "河洛",
+  "good": [
+   {
+    "item": "破茧之衣",
+    "lift": 7.7,
+    "count": 5048
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 5.9,
+    "count": 1170
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 5.9,
+    "count": 2129
+   },
+   {
+    "item": "反伤重甲",
+    "lift": 5.1,
+    "count": 1117
+   },
+   {
+    "item": "炽热支配者",
+    "lift": 3.6,
+    "count": 1764
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 3.4,
+    "count": 10067
+   }
+  ],
+  "total": 13
+ },
+ "1931": {
+  "name": "铠",
+  "quality": 3,
+  "faction": "河洛",
+  "good": [
+   {
+    "item": "小鹿的庇护",
+    "lift": 5.5,
+    "count": 1603
+   },
+   {
+    "item": "破茧之衣",
+    "lift": 4.6,
+    "count": 1370
+   },
+   {
+    "item": "御灵之纱",
+    "lift": 4.5,
+    "count": 1053
+   },
+   {
+    "item": "自然法杖",
+    "lift": 3.4,
+    "count": 1009
+   },
+   {
+    "item": "无尽巨剑",
+    "lift": 3.3,
+    "count": 2147
+   }
+  ],
+  "total": 20
+ },
+ "5311": {
+  "name": "镜",
+  "quality": 3,
+  "faction": "逐鹿",
+  "good": [
+   {
+    "item": "凝渊",
+    "lift": 5.5,
+    "count": 1561
+   },
+   {
+    "item": "无尽巨剑",
+    "lift": 4.2,
+    "count": 2088
+   },
+   {
+    "item": "炽热支配者",
+    "lift": 3.4,
+    "count": 1472
+   }
+  ],
+  "total": 4
+ },
+ "1161": {
+  "name": "阿轲",
+  "quality": 3,
+  "faction": "无阵营",
+  "good": [
+   {
+    "item": "凝渊",
+    "lift": 12.8,
+    "count": 5041
+   },
+   {
+    "item": "无尽巨剑",
+    "lift": 12.7,
+    "count": 7334
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 11.6,
+    "count": 5321
+   },
+   {
+    "item": "铸梦·逐风",
+    "lift": 9.8,
+    "count": 2505
+   },
+   {
+    "item": "炽热支配者",
+    "lift": 9.5,
+    "count": 3869
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 7.6,
+    "count": 1137
+   }
+  ],
+  "total": 11
+ },
+ "5181": {
+  "name": "马超",
+  "quality": 3,
+  "faction": "三分之地",
+  "good": [
+   {
+    "item": "自然法杖",
+    "lift": 11.2,
+    "count": 6005
+   },
+   {
+    "item": "炽热支配者",
+    "lift": 5.7,
+    "count": 4833
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 3.6,
+    "count": 3021
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 3.4,
+    "count": 1720
+   }
+  ],
+  "total": 9
+ },
+ "5141": {
+  "name": "亚连",
+  "quality": 2,
+  "faction": "日落海",
+  "good": [
+   {
+    "item": "凝渊",
+    "lift": 3.5,
+    "count": 1282
+   }
+  ],
+  "total": 6
+ },
+ "1991": {
+  "name": "公孙离",
+  "quality": 2,
+  "faction": "无阵营",
+  "good": [
+   {
+    "item": "制裁之剑",
+    "lift": 10.0,
+    "count": 1154
+   },
+   {
+    "item": "怒莲之刺",
+    "lift": 7.6,
+    "count": 1275
+   },
+   {
+    "item": "破晓",
+    "lift": 5.3,
+    "count": 12854
+   },
+   {
+    "item": "末世",
+    "lift": 5.1,
+    "count": 3434
+   },
+   {
+    "item": "百锻刀",
+    "lift": 3.9,
+    "count": 2610
+   },
+   {
+    "item": "日渊",
+    "lift": 3.7,
+    "count": 19659
+   }
+  ],
+  "total": 17
+ },
+ "1081": {
+  "name": "墨子",
+  "quality": 2,
+  "faction": "逐鹿",
+  "good": [],
+  "total": 0
+ },
+ "1911": {
+  "name": "大乔",
+  "quality": 2,
+  "faction": "三分之地",
+  "good": [
+   {
+    "item": "法源之杯",
+    "lift": 4.9,
+    "count": 2559
+   },
+   {
+    "item": "自然法杖",
+    "lift": 3.4,
+    "count": 1288
+   }
+  ],
+  "total": 3
+ },
+ "1051": {
+  "name": "廉颇",
+  "quality": 2,
+  "faction": "逐鹿",
+  "good": [
+   {
+    "item": "反伤重甲",
+    "lift": 5.4,
+    "count": 2567
+   },
+   {
+    "item": "不死鸟之眼",
+    "lift": 4.7,
+    "count": 2122
+   }
+  ],
+  "total": 4
+ },
+ "1281": {
+  "name": "曹操",
+  "quality": 2,
+  "faction": "三分之地",
+  "good": [
+   {
+    "item": "近卫荣耀",
+    "lift": 10.3,
+    "count": 1366
+   },
+   {
+    "item": "凝渊",
+    "lift": 8.6,
+    "count": 1829
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 7.7,
+    "count": 1589
+   },
+   {
+    "item": "反伤重甲",
+    "lift": 4.1,
+    "count": 2566
+   }
+  ],
+  "total": 12
+ },
+ "1981": {
+  "name": "梦奇",
+  "quality": 2,
+  "faction": "无阵营",
+  "good": [],
+  "total": 0
+ },
+ "3121": {
+  "name": "沈梦溪",
+  "quality": 2,
+  "faction": "河洛",
+  "good": [
+   {
+    "item": "法源之杯",
+    "lift": 4.2,
+    "count": 2031
+   }
+  ],
+  "total": 2
+ },
+ "1961": {
+  "name": "百里守约",
+  "quality": 2,
+  "faction": "河洛",
+  "good": [
+   {
+    "item": "百锻刀",
+    "lift": 6.6,
+    "count": 1994
+   },
+   {
+    "item": "征服之剑",
+    "lift": 4.9,
+    "count": 1260
+   },
+   {
+    "item": "魂祭绝刃",
+    "lift": 4.7,
+    "count": 1380
+   },
+   {
+    "item": "无尽巨剑",
+    "lift": 3.6,
+    "count": 14405
+   }
+  ],
+  "total": 13
+ },
+ "1951": {
+  "name": "百里玄策",
+  "quality": 2,
+  "faction": "河洛",
+  "good": [
+   {
+    "item": "无尽巨剑",
+    "lift": 4.5,
+    "count": 3830
+   }
+  ],
+  "total": 5
+ },
+ "5091": {
+  "name": "盾山",
+  "quality": 2,
+  "faction": "河洛",
+  "good": [],
+  "total": 5
+ },
+ "5041": {
+  "name": "米莱狄",
+  "quality": 2,
+  "faction": "日落海",
+  "good": [
+   {
+    "item": "铸梦·逐风",
+    "lift": 9.8,
+    "count": 1203
+   },
+   {
+    "item": "魔律之刃",
+    "lift": 8.7,
+    "count": 3182
+   },
+   {
+    "item": "法源之杯",
+    "lift": 7.2,
+    "count": 6551
+   },
+   {
+    "item": "自然法杖",
+    "lift": 6.0,
+    "count": 3420
+   },
+   {
+    "item": "炽热支配者",
+    "lift": 5.1,
+    "count": 1846
+   },
+   {
+    "item": "贤者之书",
+    "lift": 4.3,
+    "count": 3849
+   }
+  ],
+  "total": 10
+ },
+ "1211": {
+  "name": "芈月",
+  "quality": 2,
+  "faction": "逐鹿",
+  "good": [
+   {
+    "item": "破茧之衣",
+    "lift": 13.6,
+    "count": 2443
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 11.3,
+    "count": 8245
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 11.1,
+    "count": 3472
+   },
+   {
+    "item": "霸者重铠",
+    "lift": 5.8,
+    "count": 1213
+   },
+   {
+    "item": "炽热支配者",
+    "lift": 3.0,
+    "count": 1413
+   }
+  ],
+  "total": 13
+ },
+ "5271": {
+  "name": "蒙恬",
+  "quality": 2,
+  "faction": "逐鹿",
+  "good": [
+   {
+    "item": "法源之杯",
+    "lift": 9.0,
+    "count": 2260
+   },
+   {
+    "item": "霸者重铠",
+    "lift": 8.7,
+    "count": 1542
+   }
+  ],
+  "total": 6
+ },
+ "1841": {
+  "name": "蔡文姬",
+  "quality": 2,
+  "faction": "三分之地",
+  "good": [
+   {
+    "item": "名刀·司命",
+    "lift": 22.2,
+    "count": 1055
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 15.3,
+    "count": 5442
+   },
+   {
+    "item": "不死鸟之眼",
+    "lift": 14.1,
+    "count": 2609
+   }
+  ],
+  "total": 4
+ },
+ "1741": {
+  "name": "虞姬",
+  "quality": 2,
+  "faction": "大河流域",
+  "good": [
+   {
+    "item": "制裁之剑",
+    "lift": 11.8,
+    "count": 1652
+   },
+   {
+    "item": "破茧之衣",
+    "lift": 11.4,
+    "count": 2991
+   },
+   {
+    "item": "寒霜侵袭",
+    "lift": 5.1,
+    "count": 7618
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 3.9,
+    "count": 9907
+   },
+   {
+    "item": "破晓",
+    "lift": 3.8,
+    "count": 6668
+   },
+   {
+    "item": "日渊",
+    "lift": 3.2,
+    "count": 3780
+   }
+  ],
+  "total": 13
+ },
+ "1071": {
+  "name": "赵云",
+  "quality": 2,
+  "faction": "三分之地",
+  "good": [
+   {
+    "item": "名刀·司命",
+    "lift": 3.8,
+    "count": 1072
+   }
+  ],
+  "total": 4
+ },
+ "1351": {
+  "name": "项羽",
+  "quality": 2,
+  "faction": "大河流域",
+  "good": [],
+  "total": 0
+ },
+ "1321": {
+  "name": "马可波罗",
+  "quality": 2,
+  "faction": "日落海",
+  "good": [],
+  "total": 0
+ },
+ "1891": {
+  "name": "鬼谷子",
+  "quality": 2,
+  "faction": "大河流域",
+  "good": [
+   {
+    "item": "名刀·司命",
+    "lift": 14.3,
+    "count": 3094
+   },
+   {
+    "item": "破茧之衣",
+    "lift": 7.4,
+    "count": 7473
+   },
+   {
+    "item": "生命魔典",
+    "lift": 6.2,
+    "count": 1550
+   },
+   {
+    "item": "御灵之纱",
+    "lift": 5.5,
+    "count": 3997
+   },
+   {
+    "item": "魔女斗篷",
+    "lift": 5.2,
+    "count": 1167
+   },
+   {
+    "item": "霸者重铠",
+    "lift": 4.6,
+    "count": 5546
+   }
+  ],
+  "total": 15
+ },
+ "1111": {
+  "name": "孙尚香",
+  "quality": 1,
+  "faction": "三分之地",
+  "good": [],
+  "total": 1
+ },
+ "1181": {
+  "name": "孙膑",
+  "quality": 1,
+  "faction": "逐鹿",
+  "good": [
+   {
+    "item": "法源之杯",
+    "lift": 5.2,
+    "count": 3181
+   }
+  ],
+  "total": 7
+ },
+ "1821": {
+  "name": "干将莫邪",
+  "quality": 1,
+  "faction": "大河流域",
+  "good": [
+   {
+    "item": "自然法杖",
+    "lift": 8.9,
+    "count": 1200
+   },
+   {
+    "item": "法源之杯",
+    "lift": 4.2,
+    "count": 6142
+   }
+  ],
+  "total": 8
+ },
+ "1971": {
+  "name": "弈星",
+  "quality": 1,
+  "faction": "无阵营",
+  "good": [],
+  "total": 0
+ },
+ "5221": {
+  "name": "曜",
+  "quality": 1,
+  "faction": "逐鹿",
+  "good": [
+   {
+    "item": "炽热支配者",
+    "lift": 3.1,
+    "count": 1049
+   }
+  ],
+  "total": 6
+ },
+ "1731": {
+  "name": "李元芳",
+  "quality": 1,
+  "faction": "河洛",
+  "good": [
+   {
+    "item": "破晓",
+    "lift": 5.2,
+    "count": 1574
+   },
+   {
+    "item": "名刀·司命",
+    "lift": 4.5,
+    "count": 1385
+   },
+   {
+    "item": "无尽巨剑",
+    "lift": 3.7,
+    "count": 1413
+   },
+   {
+    "item": "炽热支配者",
+    "lift": 3.1,
+    "count": 1227
+   }
+  ],
+  "total": 8
+ },
+ "1681": {
+  "name": "牛魔",
+  "quality": 1,
+  "faction": "无阵营",
+  "good": [],
+  "total": 2
+ },
+ "5031": {
+  "name": "狂铁",
+  "quality": 1,
+  "faction": "日落海",
+  "good": [
+   {
+    "item": "名刀·司命",
+    "lift": 6.0,
+    "count": 1356
+   }
+  ],
+  "total": 13
+ },
+ "1941": {
+  "name": "苏烈",
+  "quality": 1,
+  "faction": "河洛",
+  "good": [
+   {
+    "item": "青莲剑谱",
+    "lift": 17.4,
+    "count": 1565
+   },
+   {
+    "item": "驱雷",
+    "lift": 12.7,
+    "count": 1284
+   },
+   {
+    "item": "反伤重甲",
+    "lift": 10.0,
+    "count": 23781
+   },
+   {
+    "item": "魔女斗篷",
+    "lift": 6.1,
+    "count": 1439
+   },
+   {
+    "item": "近卫荣耀",
+    "lift": 6.0,
+    "count": 1621
+   },
+   {
+    "item": "破茧之衣",
+    "lift": 4.1,
+    "count": 1331
+   }
+  ],
+  "total": 22
+ }
+}
