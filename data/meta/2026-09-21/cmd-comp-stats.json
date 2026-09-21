@@ -1,6 +1,60 @@
 {
- "queriedAt": "2026-09-21T11:21:08.375Z",
+ "queriedAt": "2026-09-21T11:36:42.571Z",
  "results": {
+  "三核:露娜+孙悟空+太乙真人": {
+   "base": {
+    "avgPlacement": 2.3124,
+    "count": 6386,
+    "firstRate": 0.4662,
+    "top3Rate": 0.7632
+   },
+   "total": 2977
+  },
+  "双核:露娜+孙悟空": {
+   "base": {
+    "avgPlacement": 3.0613,
+    "count": 43901,
+    "firstRate": 0.346,
+    "top3Rate": 0.5783
+   },
+   "total": 15191
+  },
+  "露娜+噬神之书": {
+   "base": {
+    "avgPlacement": 2.8438,
+    "count": 3649,
+    "firstRate": 0.2916,
+    "top3Rate": 0.6585
+   },
+   "total": 1064
+  },
+  "露娜+金色圣剑": {
+   "base": {
+    "avgPlacement": 3.0178,
+    "count": 23912,
+    "firstRate": 0.2419,
+    "top3Rate": 0.6182
+   },
+   "total": 5785
+  },
+  "露娜+炽热支配者": {
+   "base": {
+    "avgPlacement": 2.8092,
+    "count": 49944,
+    "firstRate": 0.3114,
+    "top3Rate": 0.6659
+   },
+   "total": 15554
+  },
+  "露娜+法源之杯": {
+   "base": {
+    "avgPlacement": 2.8814,
+    "count": 40983,
+    "firstRate": 0.2722,
+    "top3Rate": 0.6535
+   },
+   "total": 11156
+  },
   "明先生": {
    "base": {
     "count": 112,
@@ -54,6 +108,26 @@
     "top3Rate": 0.7067
    },
    "total": 846
+  }
+ },
+ "commanders": {
+  "孙小宾(总)": {
+   "base": {
+    "avgPlacement": 3.8867,
+    "count": 24715,
+    "firstRate": 0.1642,
+    "top3Rate": 0.3814
+   },
+   "total": 4058
+  },
+  "镜(总)": {
+   "base": {
+    "count": 37496,
+    "avgPlacement": 3.6366,
+    "firstRate": 0.1515,
+    "top3Rate": 0.4715
+   },
+   "total": 5679
   }
  }
 }
