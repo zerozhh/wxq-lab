@@ -1,10 +1,10 @@
 {
- "queriedAt": "2026-09-21T11:36:42.571Z",
+ "queriedAt": "2026-09-21T13:10:48.813Z",
  "results": {
   "三核:露娜+孙悟空+太乙真人": {
    "base": {
-    "avgPlacement": 2.3124,
     "count": 6386,
+    "avgPlacement": 2.3124,
     "firstRate": 0.4662,
     "top3Rate": 0.7632
    },
@@ -21,8 +21,8 @@
   },
   "露娜+噬神之书": {
    "base": {
-    "avgPlacement": 2.8438,
     "count": 3649,
+    "avgPlacement": 2.8438,
     "firstRate": 0.2916,
     "top3Rate": 0.6585
    },
@@ -30,8 +30,8 @@
   },
   "露娜+金色圣剑": {
    "base": {
-    "avgPlacement": 3.0178,
     "count": 23912,
+    "avgPlacement": 3.0178,
     "firstRate": 0.2419,
     "top3Rate": 0.6182
    },
@@ -39,8 +39,8 @@
   },
   "露娜+炽热支配者": {
    "base": {
-    "avgPlacement": 2.8092,
     "count": 49944,
+    "avgPlacement": 2.8092,
     "firstRate": 0.3114,
     "top3Rate": 0.6659
    },
@@ -48,48 +48,12 @@
   },
   "露娜+法源之杯": {
    "base": {
-    "avgPlacement": 2.8814,
     "count": 40983,
+    "avgPlacement": 2.8814,
     "firstRate": 0.2722,
     "top3Rate": 0.6535
    },
    "total": 11156
-  },
-  "明先生": {
-   "base": {
-    "count": 112,
-    "avgPlacement": 2.6518,
-    "firstRate": 0.2857,
-    "top3Rate": 0.7321
-   },
-   "total": 32
-  },
-  "瑶妹": {
-   "base": {
-    "count": 257,
-    "avgPlacement": 3.1284,
-    "firstRate": 0.1051,
-    "top3Rate": 0.6304
-   },
-   "total": 27
-  },
-  "镜": {
-   "base": {
-    "count": 772,
-    "avgPlacement": 1.8575,
-    "firstRate": 0.6101,
-    "top3Rate": 0.8588
-   },
-   "total": 471
-  },
-  "孙小宾": {
-   "base": {
-    "count": 1748,
-    "avgPlacement": 1.5395,
-    "firstRate": 0.7248,
-    "top3Rate": 0.9251
-   },
-   "total": 1267
   },
   "常小娥": {
    "base": {
@@ -100,6 +64,15 @@
    },
    "total": 160
   },
+  "瑶妹": {
+   "base": {
+    "count": 257,
+    "avgPlacement": 3.1284,
+    "firstRate": 0.1051,
+    "top3Rate": 0.6304
+   },
+   "total": 27
+  },
   "白歌": {
    "base": {
     "count": 1940,
@@ -108,6 +81,141 @@
     "top3Rate": 0.7067
    },
    "total": 846
+  },
+  "香香": {
+   "base": {
+    "count": 127,
+    "avgPlacement": 3.6693,
+    "firstRate": 0.0315,
+    "top3Rate": 0.4094
+   },
+   "total": 4
+  },
+  "闹闹": {
+   "base": {
+    "count": 113,
+    "avgPlacement": 2.2478,
+    "firstRate": 0.3628,
+    "top3Rate": 0.8142
+   },
+   "total": 41
+  },
+  "明先生": {
+   "base": {
+    "count": 112,
+    "avgPlacement": 2.6518,
+    "firstRate": 0.2857,
+    "top3Rate": 0.7321
+   },
+   "total": 32
+  },
+  "马可": {
+   "base": {
+    "count": 47,
+    "avgPlacement": 3.2979,
+    "firstRate": 0.1277,
+    "top3Rate": 0.5319
+   },
+   "total": 6
+  },
+  "姜导": {
+   "base": {
+    "count": 59,
+    "avgPlacement": 3.3051,
+    "firstRate": 0.0678,
+    "top3Rate": 0.5763
+   },
+   "total": 4
+  },
+  "嬴律": {
+   "base": {
+    "count": 111,
+    "avgPlacement": 3.018,
+    "firstRate": 0.1712,
+    "top3Rate": 0.6396
+   },
+   "total": 19
+  },
+  "镜": {
+   "base": {
+    "count": 772,
+    "avgPlacement": 1.8575,
+    "firstRate": 0.6101,
+    "top3Rate": 0.8588
+   },
+   "total": 471
+  },
+  "乔汐": {
+   "base": {
+    "count": 165,
+    "avgPlacement": 2.9394,
+    "firstRate": 0.1455,
+    "top3Rate": 0.6727
+   },
+   "total": 24
+  },
+  "弈星": {
+   "base": {
+    "count": 151,
+    "avgPlacement": 3.3377,
+    "firstRate": 0.1523,
+    "top3Rate": 0.5364
+   },
+   "total": 23
+  },
+  "孙小宾": {
+   "base": {
+    "count": 1748,
+    "avgPlacement": 1.5395,
+    "firstRate": 0.7248,
+    "top3Rate": 0.9251
+   },
+   "total": 1267
+  },
+  "小妲己": {
+   "base": {
+    "count": 39,
+    "avgPlacement": 3.1026,
+    "firstRate": 0.1795,
+    "top3Rate": 0.5641
+   },
+   "total": 7
+  },
+  "庄小鱼": {
+   "base": {
+    "count": 66,
+    "avgPlacement": 3.2273,
+    "firstRate": 0.1818,
+    "top3Rate": 0.6061
+   },
+   "total": 12
+  },
+  "昭君": {
+   "base": {
+    "count": 136,
+    "avgPlacement": 3.4118,
+    "firstRate": 0.2353,
+    "top3Rate": 0.5221
+   },
+   "total": 32
+  },
+  "班叔": {
+   "base": {
+    "count": 7,
+    "avgPlacement": 4.4286,
+    "firstRate": 0,
+    "top3Rate": 0.1429
+   },
+   "total": 0
+  },
+  "玉环": {
+   "base": {
+    "count": 21,
+    "avgPlacement": 3.1905,
+    "firstRate": 0.0952,
+    "top3Rate": 0.619
+   },
+   "total": 2
   }
  },
  "commanders": {
@@ -122,8 +230,8 @@
   },
   "镜(总)": {
    "base": {
-    "count": 37496,
     "avgPlacement": 3.6366,
+    "count": 37496,
     "firstRate": 0.1515,
     "top3Rate": 0.4715
    },
