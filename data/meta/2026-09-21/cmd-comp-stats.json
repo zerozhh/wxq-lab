@@ -1,5 +1,5 @@
 {
- "queriedAt": "2026-09-21T13:10:48.813Z",
+ "queriedAt": "2026-09-21T13:44:51.595Z",
  "results": {
   "三核:露娜+孙悟空+太乙真人": {
    "base": {
@@ -10,10 +10,46 @@
    },
    "total": 2977
   },
+  "四核:三核+钟馗": {
+   "base": {
+    "count": 743,
+    "avgPlacement": 1.5437,
+    "firstRate": 0.6931,
+    "top3Rate": 0.9394
+   },
+   "total": 515
+  },
+  "四核:三核+海月": {
+   "base": {
+    "count": 828,
+    "avgPlacement": 1.9432,
+    "firstRate": 0.5676,
+    "top3Rate": 0.849
+   },
+   "total": 470
+  },
+  "五核:三核+钟馗+海月": {
+   "base": {
+    "count": 150,
+    "avgPlacement": 1.42,
+    "firstRate": 0.7067,
+    "top3Rate": 0.9667
+   },
+   "total": 106
+  },
+  "双C:钟馗+海月": {
+   "base": {
+    "count": 21547,
+    "avgPlacement": 2.2305,
+    "firstRate": 0.4197,
+    "top3Rate": 0.8105
+   },
+   "total": 9043
+  },
   "双核:露娜+孙悟空": {
    "base": {
-    "avgPlacement": 3.0613,
     "count": 43901,
+    "avgPlacement": 3.0613,
     "firstRate": 0.346,
     "top3Rate": 0.5783
    },
@@ -221,8 +257,8 @@
  "commanders": {
   "孙小宾(总)": {
    "base": {
-    "avgPlacement": 3.8867,
     "count": 24715,
+    "avgPlacement": 3.8867,
     "firstRate": 0.1642,
     "top3Rate": 0.3814
    },
@@ -230,8 +266,8 @@
   },
   "镜(总)": {
    "base": {
-    "avgPlacement": 3.6366,
     "count": 37496,
+    "avgPlacement": 3.6366,
     "firstRate": 0.1515,
     "top3Rate": 0.4715
    },
