@@ -24,8 +24,9 @@ for (let p = 1; p <= pages; p++) {
   }
   const ms = body?.data?.matches || [];
   for (const m of ms) {
-    if (seen.has(m.game_time)) continue;
-    seen.add(m.game_time);
+    const sig = m.game_time + '|' + [...(m.hero_names || [])].sort().join(',');
+    if (seen.has(sig)) continue;
+    seen.add(sig);
     rows.push({
       thl: m.total_hero_level,           // 阵容总等级
       avgHeroLv: m.total_hero_level / Math.max(1, m.hero_names.length),

@@ -12,7 +12,9 @@ data = json.load(open(f'data/meta/{date}/explore-sample.json'))
 # 橱窗去重：深分页会重复返回同一局，按 gameTime 唯一化（2026-09-21 对抗性审查发现）
 seen = {}
 for m in data['matches']:
-    seen[m['gameTime']] = m
+    # 键 = gameTime + 阵容签名：防深分页重复，也防不同对局的毫秒级时间戳碰撞误合并
+    sig = m['gameTime'], tuple(sorted(u['id'] for u in m.get('units', [])))
+    seen[sig] = m
 ms = list(seen.values())
 top_th = int(sys.argv[2]) if len(sys.argv) > 2 else data['thresholds']['top']
 print(f"样本（去重后）{len(ms)} 局（{date} 采样，原始条目 {data['total']}）| 阈值 high={data['thresholds']['high']} top={top_th}")
