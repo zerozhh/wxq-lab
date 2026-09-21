@@ -25,7 +25,8 @@ try {
 } catch { /* 装备查询不可用时忽略 */ }
 
 // 棋手 id（来自 09-21 快照棋手榜）
-const CMD_IDS = { 明先生: '39', 瑶妹: '11', 镜: '21', 孙小宾: '38', 常小娥: '24', 白歌: '33' };
+const cmdRows = JSON.parse(await readFile('data/meta/2026-09-21/api/commanders.json', 'utf8')).data.rows;
+const CMD_IDS = Object.fromEntries(cmdRows.map((r) => [r.name ?? String(r.id), String(r.id)]));
 // 棋手单查（总局数→玩家集中度）+ 太乙贡献 + 露娜装备完备性
 const SOLO_CMDS = { '孙小宾(总)': '38', '镜(总)': '21' };
 const EXTRA_QUERIES = {
@@ -39,8 +40,6 @@ const EXTRA_QUERIES = {
 // 白歌 id 待确认：从快照棋手榜解析
 const SKELETON = ['露娜', '孙悟空', '太乙真人'];
 
-const cmdRows = JSON.parse(await readFile('data/meta/2026-09-21/api/commanders.json', 'utf8')).data.rows;
-for (const r of cmdRows) if (r.name in CMD_IDS) CMD_IDS[r.name] = String(r.id);
 
 const out = { queriedAt: new Date().toISOString(), results: {}, commanders: {} };
 let blocked = false;
