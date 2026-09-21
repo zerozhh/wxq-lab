@@ -15,7 +15,7 @@ for m in data['matches']:
     seen[m['gameTime']] = m
 ms = list(seen.values())
 top_th = int(sys.argv[2]) if len(sys.argv) > 2 else data['thresholds']['top']
-print(f"样本 {data['total']} 局（{date} 采样）| 阈值 high={data['thresholds']['high']} top={top_th}")
+print(f"样本（去重后）{len(ms)} 局（{date} 采样，原始条目 {data['total']}）| 阈值 high={data['thresholds']['high']} top={top_th}")
 
 top = [m for m in ms if m['totalLevel'] >= top_th]
 print(f"顶级局（总等级≥{top_th}）: {len(top)} 局 · 登顶占比 {sum(1 for m in top if m['placement']==1)/max(1,len(top))*100:.0f}%")
