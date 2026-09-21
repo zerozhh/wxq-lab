@@ -42,7 +42,7 @@ const SKELETON = ['露娜', '孙悟空', '太乙真人'];
 const cmdRows = JSON.parse(await readFile('data/meta/2026-09-21/api/commanders.json', 'utf8')).data.rows;
 for (const r of cmdRows) if (r.name in CMD_IDS) CMD_IDS[r.name] = String(r.id);
 
-const out = { queriedAt: new Date().toISOString(), results: {} };
+const out = { queriedAt: new Date().toISOString(), results: {}, commanders: {} };
 let blocked = false;
 
 async function q(body) {
