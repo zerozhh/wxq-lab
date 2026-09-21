@@ -9,7 +9,11 @@ from collections import Counter, defaultdict
 dirs = sorted(d for d in __import__('os').listdir('data/meta') if d[:2] == '20')
 date = sys.argv[1] if len(sys.argv) > 1 else dirs[-1]
 data = json.load(open(f'data/meta/{date}/explore-sample.json'))
-ms = data['matches']
+# 橱窗去重：深分页会重复返回同一局，按 gameTime 唯一化（2026-09-21 对抗性审查发现）
+seen = {}
+for m in data['matches']:
+    seen[m['gameTime']] = m
+ms = list(seen.values())
 top_th = int(sys.argv[2]) if len(sys.argv) > 2 else data['thresholds']['top']
 print(f"样本 {data['total']} 局（{date} 采样）| 阈值 high={data['thresholds']['high']} top={top_th}")
 

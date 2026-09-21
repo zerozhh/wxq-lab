@@ -6,6 +6,7 @@
 const API = 'https://api.datatft.com/wzwxq/explore';
 const pages = Number(process.argv[2] || 40);
 
+const seen = new Set();   // 橱窗深分页会重复返回同一局，按 gameTime 去重
 const rows = [];
 let blocked = false;
 for (let p = 1; p <= pages; p++) {
@@ -23,6 +24,8 @@ for (let p = 1; p <= pages; p++) {
   }
   const ms = body?.data?.matches || [];
   for (const m of ms) {
+    if (seen.has(m.game_time)) continue;
+    seen.add(m.game_time);
     rows.push({
       thl: m.total_hero_level,           // 阵容总等级
       avgHeroLv: m.total_hero_level / Math.max(1, m.hero_names.length),
