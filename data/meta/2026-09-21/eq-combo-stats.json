@@ -1,0 +1,146 @@
+{
+ "queriedAt": "2026-09-21T11:15:25.379Z",
+ "results": {
+  "露娜+魔律之刃": {
+   "filters": {
+    "hero": "露娜",
+    "item": "魔律之刃"
+   },
+   "base": {
+    "count": 30058,
+    "avgPlacement": 2.591,
+    "firstRate": 0.3972,
+    "top3Rate": 0.7067
+   },
+   "total": 11940
+  },
+  "露娜+贤者之书": {
+   "filters": {
+    "hero": "露娜",
+    "item": "贤者之书"
+   },
+   "base": {
+    "count": 34806,
+    "avgPlacement": 2.8463,
+    "firstRate": 0.2762,
+    "top3Rate": 0.6626
+   },
+   "total": 9613
+  },
+  "露娜+聚灵水晶": {
+   "filters": {
+    "hero": "露娜",
+    "item": "聚灵水晶"
+   },
+   "base": {
+    "count": 23784,
+    "avgPlacement": 2.7667,
+    "firstRate": 0.3534,
+    "top3Rate": 0.6638
+   },
+   "total": 8405
+  },
+  "露娜+痛苦面具": {
+   "filters": {
+    "hero": "露娜",
+    "item": "痛苦面具"
+   },
+   "base": {
+    "count": 9053,
+    "avgPlacement": 3.1142,
+    "firstRate": 0.1734,
+    "top3Rate": 0.61
+   },
+   "total": 1570
+  },
+  "露娜+名刀·司命": {
+   "filters": {
+    "hero": "露娜",
+    "item": "名刀·司命"
+   },
+   "base": {
+    "count": 45582,
+    "avgPlacement": 2.871,
+    "firstRate": 0.2795,
+    "top3Rate": 0.6522
+   },
+   "total": 12739
+  },
+  "孙悟空+名刀·司命": {
+   "filters": {
+    "hero": "孙悟空",
+    "item": "名刀·司命"
+   },
+   "base": {
+    "count": 28036,
+    "avgPlacement": 3.081,
+    "firstRate": 0.3223,
+    "top3Rate": 0.5813
+   },
+   "total": 9036
+  },
+  "孙悟空+无尽巨剑": {
+   "filters": {
+    "hero": "孙悟空",
+    "item": "无尽巨剑"
+   },
+   "base": {
+    "count": 33354,
+    "avgPlacement": 2.9928,
+    "firstRate": 0.3633,
+    "top3Rate": 0.5982
+   },
+   "total": 12116
+  },
+  "孙悟空+凝渊": {
+   "filters": {
+    "hero": "孙悟空",
+    "item": "凝渊"
+   },
+   "base": {
+    "count": 22269,
+    "avgPlacement": 3.0198,
+    "firstRate": 0.3588,
+    "top3Rate": 0.5941
+   },
+   "total": 7990
+  },
+  "双核:露娜+孙悟空": {
+   "filters": {
+    "hero": "露娜",
+    "hero2": "孙悟空"
+   },
+   "base": {
+    "count": 43901,
+    "avgPlacement": 3.0613,
+    "firstRate": 0.346,
+    "top3Rate": 0.5783
+   },
+   "total": 15191
+  },
+  "单核:仅露娜": {
+   "filters": {
+    "hero": "露娜"
+   },
+   "base": {
+    "count": 125637,
+    "avgPlacement": 3.1293,
+    "firstRate": 0.2435,
+    "top3Rate": 0.5873
+   },
+   "total": 30596
+  },
+  "单核:仅孙悟空": {
+   "filters": {
+    "hero": "孙悟空"
+   },
+   "base": {
+    "count": 70548,
+    "avgPlacement": 3.5243,
+    "firstRate": 0.2551,
+    "top3Rate": 0.4745
+   },
+   "total": 17994
+  }
+ }
+}
