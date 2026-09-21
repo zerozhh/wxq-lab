@@ -1,5 +1,5 @@
 {
- "queriedAt": "2026-09-21T11:15:25.379Z",
+ "queriedAt": "2026-09-21T12:20:49.070Z",
  "results": {
   "露娜+魔律之刃": {
    "filters": {
@@ -141,6 +141,84 @@
     "top3Rate": 0.4745
    },
    "total": 17994
+  },
+  "吕布+魔律之刃": {
+   "filters": {
+    "hero": "吕布",
+    "item": "魔律之刃"
+   },
+   "base": {
+    "count": 22458,
+    "avgPlacement": 2.5701,
+    "firstRate": 0.3506,
+    "top3Rate": 0.7243
+   },
+   "total": 7874
+  },
+  "孙悟空+聚灵水晶": {
+   "filters": {
+    "hero": "孙悟空",
+    "item": "聚灵水晶"
+   },
+   "base": {
+    "count": 17409,
+    "avgPlacement": 2.9654,
+    "firstRate": 0.3745,
+    "top3Rate": 0.6034
+   },
+   "total": 6519
+  },
+  "太乙真人+近卫荣耀": {
+   "filters": {
+    "hero": "太乙真人",
+    "item": "近卫荣耀"
+   },
+   "base": {
+    "count": 96567,
+    "avgPlacement": 2.4717,
+    "firstRate": 0.3175,
+    "top3Rate": 0.7698
+   },
+   "total": 30659
+  },
+  "杨玉环+贤者之书": {
+   "filters": {
+    "hero": "杨玉环",
+    "item": "贤者之书"
+   },
+   "base": {
+    "count": 18699,
+    "avgPlacement": 2.8934,
+    "firstRate": 0.2768,
+    "top3Rate": 0.6417
+   },
+   "total": 5176
+  },
+  "甄姬+魔律之刃": {
+   "filters": {
+    "hero": "甄姬",
+    "item": "魔律之刃"
+   },
+   "base": {
+    "count": 22072,
+    "avgPlacement": 2.8677,
+    "firstRate": 0.3794,
+    "top3Rate": 0.6326
+   },
+   "total": 8374
+  },
+  "周瑜+自然法杖": {
+   "filters": {
+    "hero": "周瑜",
+    "item": "自然法杖"
+   },
+   "base": {
+    "count": 17820,
+    "avgPlacement": 2.8513,
+    "firstRate": 0.3094,
+    "top3Rate": 0.6516
+   },
+   "total": 5514
   }
  }
 }
