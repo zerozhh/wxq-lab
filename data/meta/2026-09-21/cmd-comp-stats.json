@@ -1,0 +1,59 @@
+{
+ "queriedAt": "2026-09-21T11:21:08.375Z",
+ "results": {
+  "明先生": {
+   "base": {
+    "count": 112,
+    "avgPlacement": 2.6518,
+    "firstRate": 0.2857,
+    "top3Rate": 0.7321
+   },
+   "total": 32
+  },
+  "瑶妹": {
+   "base": {
+    "count": 257,
+    "avgPlacement": 3.1284,
+    "firstRate": 0.1051,
+    "top3Rate": 0.6304
+   },
+   "total": 27
+  },
+  "镜": {
+   "base": {
+    "count": 772,
+    "avgPlacement": 1.8575,
+    "firstRate": 0.6101,
+    "top3Rate": 0.8588
+   },
+   "total": 471
+  },
+  "孙小宾": {
+   "base": {
+    "count": 1748,
+    "avgPlacement": 1.5395,
+    "firstRate": 0.7248,
+    "top3Rate": 0.9251
+   },
+   "total": 1267
+  },
+  "常小娥": {
+   "base": {
+    "count": 515,
+    "avgPlacement": 2.5981,
+    "firstRate": 0.3107,
+    "top3Rate": 0.7107
+   },
+   "total": 160
+  },
+  "白歌": {
+   "base": {
+    "count": 1940,
+    "avgPlacement": 2.5325,
+    "firstRate": 0.4361,
+    "top3Rate": 0.7067
+   },
+   "total": 846
+  }
+ }
+}
