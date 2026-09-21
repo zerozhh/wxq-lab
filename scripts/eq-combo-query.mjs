@@ -44,6 +44,13 @@ const QUERIES = {
   '双核:露娜+孙悟空': { hero: '露娜', hero2: '孙悟空' },
   '单核:仅露娜': { hero: '露娜' },
   '单核:仅孙悟空': { hero: '孙悟空' },
+  // R4：fit-lift 新发现的联合验证（证据等级：联合条件 > fit-lift）
+  '吕布+魔律之刃': { hero: '吕布', item: '魔律之刃' },
+  '孙悟空+聚灵水晶': { hero: '孙悟空', item: '聚灵水晶' },
+  '太乙真人+近卫荣耀': { hero: '太乙真人', item: '近卫荣耀' },
+  '杨玉环+贤者之书': { hero: '杨玉环', item: '贤者之书' },
+  '甄姬+魔律之刃': { hero: '甄姬', item: '魔律之刃' },
+  '周瑜+自然法杖': { hero: '周瑜', item: '自然法杖' },
 };
 
 const out = { queriedAt: new Date().toISOString(), results: {} };
