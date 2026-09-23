@@ -49,3 +49,4 @@ scripts/
   screenshot.mjs   四视图无头截图（回归检查）
   update.sh        每日更新入口
 ```
+---
